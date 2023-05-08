@@ -1,0 +1,451 @@
+[  0%] Building CXX object scratch/CMakeFiles/scratch_lorawan_test1_test1.dir/lorawan/test1/test1.cc.o
+[  0%] Linking CXX executable lorawan/test1/ns3-dev-test1-debug
+SimpleLorawanNetworkExample:main(): Creating the channel...
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Setting up helpers...
++0.000000000s -1 LoraFrameHeader:SetAsUplink()
++0.000000000s -1 LoraFrameHeader:SetAdr(0x7fff3b7ee530, 0)
++0.000000000s -1 LoraFrameHeader:GetSerializedSize()
++0.000000000s -1 LoraFrameHeader:GetSerializedSize(): LoraFrameHeader serialized size: 8
++0.000000000s -1 LoraFrameHeader:Serialize()
++0.000000000s -1 LoraFrameHeader:Serialize(): Serializing the following data: 
++0.000000000s -1 LoraFrameHeader:Serialize(): Address: 0000000|0000000000000000000000000
++0.000000000s -1 LoraFrameHeader:Serialize(): ADR: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): ADRAckReq: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): Ack: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): fPending: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): fOptsLen: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): fCnt: 0
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Packet to send...: 0x558e86126490
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Creating the end device...
++0.000000000s -1 EndDeviceLorawanMac:EndDeviceLorawanMac(0x558e85fc5b60)
++0.000000000s -1 ClassAEndDeviceLorawanMac:ClassAEndDeviceLorawanMac(0x558e85fc5b60)
++0.000000000s -1 EndDeviceLorawanMac:SetDeviceAddress(0x558e85fc5b60, 0110110|0000000000000011101001000)
++0.000000000s -1 EndDeviceLorawanMac:EndDeviceLorawanMac(0x558e86127b20)
++0.000000000s -1 ClassAEndDeviceLorawanMac:ClassAEndDeviceLorawanMac(0x558e86127b20)
++0.000000000s -1 EndDeviceLorawanMac:SetDeviceAddress(0x558e86127b20, 0110110|0000000000000011101001001)
++0.000000000s -1 EndDeviceLorawanMac:SetMType(): Message type is set to 4
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Creating the gateway...
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x558e85fb9c60)
++0.000000000s -1 EndDeviceLorawanMac:SetDataRate(0x558e85fc5b60, 5)
++0.000000000s -1 EndDeviceLorawanMac:SetDataRate(0x558e86127b20, 5)
++0.000000000s -1 LoraFrameHeader:Deserialize()
++0.000000000s -1 LoraFrameHeader:Deserialize(): Deserialized data: 
++0.000000000s -1 LoraFrameHeader:Deserialize(): Address: 0000000|0000000000000000000000000
++0.000000000s -1 LoraFrameHeader:Deserialize(): ADR: 0
++0.000000000s -1 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++0.000000000s -1 LoraFrameHeader:Deserialize(): Ack: 0
++0.000000000s -1 LoraFrameHeader:Deserialize(): fPending: 0
++0.000000000s -1 LoraFrameHeader:Deserialize(): fOptsLen: 0
++0.000000000s -1 LoraFrameHeader:Deserialize(): fCnt: 0
++0.000000000s -1 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
+Device 0 : The counter before sendng it is: 0
++0.000000000s -1 NetworkServer:NetworkServer()
++0.000000000s -1 NetworkServer:AddGateway(0x558e8612adc0, 0x558e85fea650)
++0.000000000s -1 NetworkServer:AddNodes()
++0.000000000s -1 NetworkServer:AddNode(0x558e8612adc0, 0x558e85fe9960)
++0.000000000s -1 EndDeviceLorawanMac:GetDeviceAddress(0x558e85fc5b60)
++0.000000000s -1 NetworkServer:AddNode(0x558e8612adc0, 0x558e8602ea90)
++0.000000000s -1 EndDeviceLorawanMac:GetDeviceAddress(0x558e86127b20)
++0.000000000s -1 NetworkServer:AddComponent(0x558e8612adc0, 0x558e8612b4c0)
++0.000000000s -1 NetworkServer:AddComponent(0x558e8612adc0, 0x558e8612c550)
+Function deviceSend called with arguments: device: 0, endDevices: <>, pkt: 0x558e86126490
++0.000000000s -1 SimpleLorawanNetworkExample:deviceSend(): Device: 0 - LoraNetDevice:0x558e86126d80
++0.000000000s -1 EndDeviceLorawanMac:Send(0x558e85fc5b60, 0x558e86126490)
++0.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay()
++0.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.1 is = 0.
++0.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.3 is = 0.
++0.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.5 is = 0.
++0.000000000s -1 ClassAEndDeviceLorawanMac:GetNextClassTransmissionDelay()
++0.000000000s -1 EndDeviceLorawanMac:GetChannelForTx()
++0.000000000s -1 EndDeviceLorawanMac:Shuffle()
++0.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Frequency of the current channel: 868.3
++0.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Waiting time for current channel = 0
++0.000000000s -1 EndDeviceLorawanMac:DoSend(0x558e85fc5b60)
++0.000000000s -1 EndDeviceLorawanMac:DoSend(): Received a new packet from application. Resetting retransmission parameters.
++0.000000000s -1 EndDeviceLorawanMac:DoSend(): APP packet: 0x558e86126490.
++0.000000000s -1 EndDeviceLorawanMac:ApplyNecessaryOptions()
++0.000000000s -1 LoraFrameHeader:SetAsUplink()
++0.000000000s -1 LoraFrameHeader:SetAdr(0x7fff3b7ed8d0, 0)
++0.000000000s -1 LoraFrameHeader:GetSerializedSize()
++0.000000000s -1 LoraFrameHeader:GetSerializedSize(): LoraFrameHeader serialized size: 8
++0.000000000s -1 LoraFrameHeader:Serialize()
++0.000000000s -1 LoraFrameHeader:Serialize(): Serializing the following data: 
++0.000000000s -1 LoraFrameHeader:Serialize(): Address: 0110110|0000000000000011101001000
++0.000000000s -1 LoraFrameHeader:Serialize(): ADR: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): ADRAckReq: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): Ack: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): fPending: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): fOptsLen: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): fCnt: 1
++0.000000000s -1 EndDeviceLorawanMac:DoSend(): Added frame header of size +0.000000000s -1 LoraFrameHeader:GetSerializedSize()
++0.000000000s -1 LoraFrameHeader:GetSerializedSize(): LoraFrameHeader serialized size: 8
+8 bytes.
++0.000000000s -1 EndDeviceLorawanMac:ApplyNecessaryOptions()
++0.000000000s -1 EndDeviceLorawanMac:DoSend(): Message type is 4
++0.000000000s -1 EndDeviceLorawanMac:DoSend(): It is a confirmed packet. Setting retransmission parameters and decreasing the number of transmissions left.
++0.000000000s -1 EndDeviceLorawanMac:DoSend(): Added MAC header of size 1 bytes.
++0.000000000s -1 EndDeviceLorawanMac:DoSend(): Copied packet: 0x558e86126500
++0.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): PacketToSend: 0x558e86126500
++0.000000000s -1 EndDeviceLorawanMac:GetChannelForTx()
++0.000000000s -1 EndDeviceLorawanMac:Shuffle()
++0.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Frequency of the current channel: 868.1
++0.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Waiting time for current channel = 0
++0.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): PacketToSend: 0x558e86126500
++0.000000000s -1 LoraChannel:Send(): Starting cycle over all 3 PHYs
++0.000000000s -1 LoraChannel:Send(): Sender mobility: 1000:0:0
++0.000000000s -1 LoraChannel:Send(): Receiver mobility: 0:0:0
++0.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-106.5dbm, distance=1000m, delay=+3336ns
++0.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++0.000000000s -1 LoraChannel:Send(): dstNode = 1
++0.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++0.000000000s -1 LoraChannel:Send(): Receiver mobility: 1000:0:0
++0.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=6.3dbm, distance=0m, delay=+0ns
++0.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++0.000000000s -1 LoraChannel:Send(): dstNode = 2
++0.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++0.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): m_dataRate: 5, m_rx1DrOffset: 0, replyDataRate: 5.
++0.000000000s 3 NetworkServer:StartApplication()
++0.066816000s 2 GatewayLorawanMac:Receive(0x558e85fb9c60, 0x558e86126500)
++0.066816000s 2 GatewayLorawanMac:Receive(): Received packet: 0x558e86126500
++0.066816010s -1 ClassAEndDeviceLorawanMac:TxFinished()
++0.068862400s 3 NetworkServer:Receive(0x558e8612adc0, 0x558e8612cf80, 2048, 02-06-00:00:00:00:00:02)
++0.068862400s 3 LoraFrameHeader:SetAsUplink()
++0.068862400s 3 LoraFrameHeader:Deserialize()
++0.068862400s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++0.068862400s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADR: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): Ack: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fPending: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++0.068862400s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++0.068862400s 3 LoraFrameHeader:Deserialize()
++0.068862400s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++0.068862400s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADR: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): Ack: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fPending: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++0.068862400s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++0.068862400s 3 LoraFrameHeader:Deserialize()
++0.068862400s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++0.068862400s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADR: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): Ack: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fPending: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++0.068862400s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++0.068862400s 3 LoraFrameHeader:SetAsUplink()
++0.068862400s 3 LoraFrameHeader:Deserialize()
++0.068862400s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++0.068862400s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADR: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): Ack: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fPending: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++0.068862400s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++0.068862400s 3 LoraFrameHeader:SetAsUplink()
++0.068862400s 3 LoraFrameHeader:Deserialize()
++0.068862400s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++0.068862400s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADR: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): Ack: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fPending: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++0.068862400s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++0.068862400s 3 LoraFrameHeader:Deserialize()
++0.068862400s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++0.068862400s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADR: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): Ack: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fPending: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++0.068862400s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++0.068862400s 3 LoraFrameHeader:SetAsUplink()
++0.068862400s 3 LoraFrameHeader:Deserialize()
++0.068862400s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++0.068862400s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADR: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): Ack: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fPending: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++0.068862400s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++0.068862400s 3 LoraFrameHeader:SetAsDownlink()
++0.068862400s 3 LoraFrameHeader:SetAck(0x558e85fc2dd0, 1)
++0.068862400s 3 LoraFrameHeader:Deserialize()
++0.068862400s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++0.068862400s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADR: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): Ack: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fPending: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++0.068862400s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++0.068862400s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++1.066816010s -1 ClassAEndDeviceLorawanMac:OpenFirstReceiveWindow()
++1.068862400s 3 GatewayLorawanMac:GetWaitingTime()
++1.068862400s 3 LoraFrameHeader:SetAsUplink()
++1.068862400s 3 LoraFrameHeader:Deserialize()
++1.068862400s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++1.068862400s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++1.068862400s 3 LoraFrameHeader:Deserialize(): ADR: 0
++1.068862400s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++1.068862400s 3 LoraFrameHeader:Deserialize(): Ack: 0
++1.068862400s 3 LoraFrameHeader:Deserialize(): fPending: 0
++1.068862400s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++1.068862400s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++1.068862400s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++1.068862400s 3 LoraFrameHeader:SetAsUplink()
++1.068862400s 3 LoraFrameHeader:Deserialize()
++1.068862400s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++1.068862400s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++1.068862400s 3 LoraFrameHeader:Deserialize(): ADR: 0
++1.068862400s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++1.068862400s 3 LoraFrameHeader:Deserialize(): Ack: 0
++1.068862400s 3 LoraFrameHeader:Deserialize(): fPending: 0
++1.068862400s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++1.068862400s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++1.068862400s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++1.068862400s 3 LoraFrameHeader:GetSerializedSize()
++1.068862400s 3 LoraFrameHeader:GetSerializedSize(): LoraFrameHeader serialized size: 8
++1.068862400s 3 LoraFrameHeader:Serialize()
++1.068862400s 3 LoraFrameHeader:Serialize(): Serializing the following data: 
++1.068862400s 3 LoraFrameHeader:Serialize(): Address: 0110110|0000000000000011101001000
++1.068862400s 3 LoraFrameHeader:Serialize(): ADR: 0
++1.068862400s 3 LoraFrameHeader:Serialize(): ADRAckReq: 0
++1.068862400s 3 LoraFrameHeader:Serialize(): Ack: 1
++1.068862400s 3 LoraFrameHeader:Serialize(): fPending: 0
++1.068862400s 3 LoraFrameHeader:Serialize(): fOptsLen: 0
++1.068862400s 3 LoraFrameHeader:Serialize(): fCnt: 1
++1.070880000s 2 GatewayLorawanMac:Send(0x558e85fb9c60, 0x558e8612cff0)
++1.070880000s 2 GatewayLorawanMac:Send(): DR: 5
++1.070880000s 2 GatewayLorawanMac:Send(): SF: 7
++1.070880000s 2 GatewayLorawanMac:Send(): BW: 125000
++1.070880000s 2 GatewayLorawanMac:Send(): Freq: 868.1 MHz
++1.070880000s 2 GatewayLorawanMac:Send(): Duration: 0.041216
++1.070880000s 2 LoraChannel:Send(): Starting cycle over all 3 PHYs
++1.070880000s 2 LoraChannel:Send(): Sender mobility: 1000:0:0
++1.070880000s 2 LoraChannel:Send(): Receiver mobility: 1000:0:0
++1.070880000s 2 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=6.3dbm, distance=0m, delay=+0ns
++1.070880000s 2 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++1.070880000s 2 LoraChannel:Send(): dstNode = 0
++1.070880000s 2 LoraChannel:Send(): Scheduling reception of the packet
++1.070880000s 2 LoraChannel:Send(): Receiver mobility: 0:0:0
++1.070880000s 2 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-106.5dbm, distance=1000m, delay=+3336ns
++1.070880000s 2 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++1.070880000s 2 LoraChannel:Send(): dstNode = 1
++1.070880000s 2 LoraChannel:Send(): Scheduling reception of the packet
++1.075008010s -1 ClassAEndDeviceLorawanMac:CloseFirstReceiveWindow()
++1.112096000s 0 ClassAEndDeviceLorawanMac:Receive(0x558e85fc5b60, 0x558e8612cff0)
++1.112096000s 0 ClassAEndDeviceLorawanMac:Receive(): Mac Header: MessageType=3
+Major=0
+
++1.112096000s 0 ClassAEndDeviceLorawanMac:Receive(): Found a downlink packet.
++1.112096000s 0 LoraFrameHeader:SetAsDownlink()
++1.112096000s 0 LoraFrameHeader:Deserialize()
++1.112096000s 0 LoraFrameHeader:Deserialize(): Deserialized data: 
++1.112096000s 0 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++1.112096000s 0 LoraFrameHeader:Deserialize(): ADR: 0
++1.112096000s 0 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++1.112096000s 0 LoraFrameHeader:Deserialize(): Ack: 1
++1.112096000s 0 LoraFrameHeader:Deserialize(): fPending: 0
++1.112096000s 0 LoraFrameHeader:Deserialize(): fOptsLen: 0
++1.112096000s 0 LoraFrameHeader:Deserialize(): fCnt: 1
++1.112096000s 0 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++1.112096000s 0 ClassAEndDeviceLorawanMac:Receive(): Frame Header: +1.112096000s 0 LoraFrameHeader:Print()
+Address=0110110|0000000000000011101001000
+ADR=0
+ADRAckReq=0
+ACK=1
+FPending=0
+FOptsLen=0
+FCnt=1
+FPort=0
+
++1.112096000s 0 ClassAEndDeviceLorawanMac:Receive(): The message is for us!
++1.112096000s 0 EndDeviceLorawanMac:ParseCommands(0x558e85fc5b60, +1.112096000s 0 LoraFrameHeader:Print()
+Address=0110110|0000000000000011101001000
+ADR=0
+ADRAckReq=0
+ACK=1
+FPending=0
+FOptsLen=0
+FCnt=1
+FPort=0
+)
++1.112096000s 0 EndDeviceLorawanMac:ParseCommands(): The message is an ACK, not waiting for it anymore.
++1.112096000s 0 EndDeviceLorawanMac:ParseCommands(): Reset retransmission variables to default values and cancel retransmission if already scheduled.
++1.112096000s 0 EndDeviceLorawanMac:ParseCommands(): Received ACK packet after 1 transmissions: stopping retransmission procedure. 
++1.112096000s 0 LoraFrameHeader:GetCommands()
+Function deviceSend called with arguments: device: 1, endDevices: <>, pkt: 0x558e86126490
++3.000000000s -1 SimpleLorawanNetworkExample:deviceSend(): Device: 1 - LoraNetDevice:0x558e86127950
++3.000000000s -1 EndDeviceLorawanMac:Send(0x558e86127b20, 0x558e86126490)
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay()
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.1 is = 0.
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.3 is = 0.
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.5 is = 0.
++3.000000000s -1 ClassAEndDeviceLorawanMac:GetNextClassTransmissionDelay()
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx()
++3.000000000s -1 EndDeviceLorawanMac:Shuffle()
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Frequency of the current channel: 868.3
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Waiting time for current channel = 0
++3.000000000s -1 EndDeviceLorawanMac:DoSend(0x558e86127b20)
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Received a new packet from application. Resetting retransmission parameters.
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): APP packet: 0x558e86126490.
++3.000000000s -1 EndDeviceLorawanMac:ApplyNecessaryOptions()
++3.000000000s -1 LoraFrameHeader:SetAsUplink()
++3.000000000s -1 LoraFrameHeader:SetAdr(0x7fff3b7ed8d0, 0)
++3.000000000s -1 LoraFrameHeader:GetSerializedSize()
++3.000000000s -1 LoraFrameHeader:GetSerializedSize(): LoraFrameHeader serialized size: 8
++3.000000000s -1 LoraFrameHeader:Serialize()
++3.000000000s -1 LoraFrameHeader:Serialize(): Serializing the following data: 
++3.000000000s -1 LoraFrameHeader:Serialize(): Address: 0110110|0000000000000011101001001
++3.000000000s -1 LoraFrameHeader:Serialize(): ADR: 0
++3.000000000s -1 LoraFrameHeader:Serialize(): ADRAckReq: 0
++3.000000000s -1 LoraFrameHeader:Serialize(): Ack: 0
++3.000000000s -1 LoraFrameHeader:Serialize(): fPending: 0
++3.000000000s -1 LoraFrameHeader:Serialize(): fOptsLen: 0
++3.000000000s -1 LoraFrameHeader:Serialize(): fCnt: 1
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Added frame header of size +3.000000000s -1 LoraFrameHeader:GetSerializedSize()
++3.000000000s -1 LoraFrameHeader:GetSerializedSize(): LoraFrameHeader serialized size: 8
+8 bytes.
++3.000000000s -1 EndDeviceLorawanMac:ApplyNecessaryOptions()
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): PacketToSend: 0x558e86126490
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx()
++3.000000000s -1 EndDeviceLorawanMac:Shuffle()
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Frequency of the current channel: 868.3
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Waiting time for current channel = 0
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): PacketToSend: 0x558e86126490
++3.000000000s -1 LoraChannel:Send(): Starting cycle over all 3 PHYs
++3.000000000s -1 LoraChannel:Send(): Sender mobility: 0:0:0
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 1000:0:0
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-106.5dbm, distance=1000m, delay=+3336ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 0
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 1000:0:0
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-106.5dbm, distance=1000m, delay=+3336ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 2
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): m_dataRate: 5, m_rx1DrOffset: 0, replyDataRate: 5.
++3.077056010s -1 ClassAEndDeviceLorawanMac:TxFinished()
++3.077059336s 2 GatewayLorawanMac:Receive(0x558e85fb9c60, 0x558e86126490)
++3.077059336s 2 GatewayLorawanMac:Receive(): Received packet: 0x558e86126490
++3.079120136s 3 NetworkServer:Receive(0x558e8612adc0, 0x558e8612d060, 2048, 02-06-00:00:00:00:00:02)
++3.079120136s 3 LoraFrameHeader:SetAsUplink()
++3.079120136s 3 LoraFrameHeader:Deserialize()
++3.079120136s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.079120136s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001001
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADR: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): Ack: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fPending: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++3.079120136s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.079120136s 3 LoraFrameHeader:Deserialize()
++3.079120136s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.079120136s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001001
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADR: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): Ack: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fPending: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++3.079120136s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.079120136s 3 LoraFrameHeader:Deserialize()
++3.079120136s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.079120136s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001001
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADR: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): Ack: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fPending: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++3.079120136s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.079120136s 3 LoraFrameHeader:SetAsUplink()
++3.079120136s 3 LoraFrameHeader:Deserialize()
++3.079120136s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.079120136s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001001
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADR: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): Ack: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fPending: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++3.079120136s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.079120136s 3 LoraFrameHeader:SetAsUplink()
++3.079120136s 3 LoraFrameHeader:Deserialize()
++3.079120136s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.079120136s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001001
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADR: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): Ack: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fPending: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++3.079120136s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.079120136s 3 LoraFrameHeader:Deserialize()
++3.079120136s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.079120136s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001001
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADR: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): Ack: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fPending: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++3.079120136s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.079120136s 3 LoraFrameHeader:SetAsUplink()
++3.079120136s 3 LoraFrameHeader:Deserialize()
++3.079120136s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.079120136s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001001
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADR: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): Ack: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fPending: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++3.079120136s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.079120136s 3 LoraFrameHeader:Deserialize()
++3.079120136s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.079120136s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001001
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADR: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): Ack: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fPending: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.079120136s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++3.079120136s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++4.077056010s -1 ClassAEndDeviceLorawanMac:OpenFirstReceiveWindow()
++4.079120136s 3 GatewayLorawanMac:GetWaitingTime()
++4.085248010s -1 ClassAEndDeviceLorawanMac:CloseFirstReceiveWindow()
++5.077056010s -1 ClassAEndDeviceLorawanMac:OpenSecondReceiveWindow()
++5.077056010s -1 ClassAEndDeviceLorawanMac:OpenSecondReceiveWindow(): Using parameters: 869.525Hz, DR0
++5.079120136s 3 GatewayLorawanMac:GetWaitingTime()
++5.079120136s 3 LoraFrameHeader:SetAsUplink()
++5.079120136s 3 LoraFrameHeader:Deserialize()
++5.079120136s 3 LoraFrameHeader:Deserialize(): Deserialized data: 
++5.079120136s 3 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001001
++5.079120136s 3 LoraFrameHeader:Deserialize(): ADR: 0
++5.079120136s 3 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++5.079120136s 3 LoraFrameHeader:Deserialize(): Ack: 0
++5.079120136s 3 LoraFrameHeader:Deserialize(): fPending: 0
++5.079120136s 3 LoraFrameHeader:Deserialize(): fOptsLen: 0
++5.079120136s 3 LoraFrameHeader:Deserialize(): fCnt: 1
++5.079120136s 3 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++5.339200010s -1 ClassAEndDeviceLorawanMac:CloseSecondReceiveWindow()
++5.339200010s -1 ClassAEndDeviceLorawanMac:CloseSecondReceiveWindow(): We have 8 transmissions left. We were not transmitting confirmed messages.
