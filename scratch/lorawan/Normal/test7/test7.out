@@ -1,0 +1,177 @@
+[  0%] Building CXX object scratch/CMakeFiles/scratch_lorawan_test7_test7.dir/lorawan/test7/test7.cc.o
+[  0%] Linking CXX executable lorawan/test7/ns3-dev-test7-debug
+SimpleLorawanNetworkExample:main(): Creating the channel...
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Setting up helpers...
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Packet to send...: 0x558e4e4bd500
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Creating the end device...
++0.000000000s -1 LoraChannel:Add(0x558e4e3d6c40, 0x558e4e3ca300)
++0.000000000s -1 EndDeviceLorawanMac:EndDeviceLorawanMac(0x558e4e35cb60)
++0.000000000s -1 ClassAEndDeviceLorawanMac:ClassAEndDeviceLorawanMac(0x558e4e35cb60)
++0.000000000s -1 EndDeviceLorawanMac:SetDeviceAddress(0x558e4e35cb60, 0110110|0000000000000011101001000)
++0.000000000s -1 EndDeviceLorawanMac:SetMType(): Message type is set to 4
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Creating the gateway...
++0.000000000s -1 LoraChannel:Add(0x558e4e3d6c40, 0x558e4e370c70)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x558e4e350c60)
++0.000000000s -1 LoraChannel:Add(0x558e4e3d6c40, 0x558e4e370ac0)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x558e4e319ab0)
++0.000000000s -1 EndDeviceLorawanMac:SetDataRate(0x558e4e35cb60, 5)
++0.000000000s -1 NetworkServer:NetworkServer()
++0.000000000s -1 NetworkServer:AddGateway(0x558e4e4c0bb0, 0x558e4e3c5a90)
++0.000000000s -1 NetworkServer:AddGateway(0x558e4e4c0bb0, 0x558e4e381650)
++0.000000000s -1 NetworkServer:AddNodes()
++0.000000000s -1 NetworkServer:AddNode(0x558e4e4c0bb0, 0x558e4e380960)
++0.000000000s -1 EndDeviceLorawanMac:GetDeviceAddress(0x558e4e35cb60)
++0.000000000s -1 EndDeviceStatus:EndDeviceStatus(0110110|0000000000000011101001000)
++0.000000000s -1 NetworkServer:AddComponent(0x558e4e4c0bb0, 0x558e4e4c2340)
++0.000000000s -1 NetworkServer:AddComponent(0x558e4e4c0bb0, 0x558e4e4c10e0)
++0.000000000s -1 NetworkServer:AddComponent(0x558e4e4c0bb0, 0x558e4e4c3d10)
++0.000000000s 3 NetworkServer:StartApplication()
+-------------------------------------------------------------
+Function deviceSend called with arguments: device: 0, endDevices: <>, pkt: 0x558e4e4bd500
++3.000000000s -1 SimpleLorawanNetworkExample:deviceSend(): Device: 0 - LoraNetDevice:0x558e4e4bdd30
++3.000000000s -1 EndDeviceLorawanMac:Send(0x558e4e35cb60, 0x558e4e4bd500)
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay()
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.1 is = 0.
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.3 is = 0.
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.5 is = 0.
++3.000000000s -1 ClassAEndDeviceLorawanMac:GetNextClassTransmissionDelay()
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx()
++3.000000000s -1 EndDeviceLorawanMac:Shuffle()
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Frequency of the current channel: 868.3
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Waiting time for current channel = 0
++3.000000000s -1 EndDeviceLorawanMac:DoSend(0x558e4e35cb60)
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Received a new packet from application. Resetting retransmission parameters.
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): APP packet: 0x558e4e4bd500.
++3.000000000s -1 EndDeviceLorawanMac:ApplyNecessaryOptions()
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Added frame header of size 8 bytes.
++3.000000000s -1 EndDeviceLorawanMac:ApplyNecessaryOptions()
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Message type is 4
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): It is a confirmed packet. Setting retransmission parameters and decreasing the number of transmissions left.
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Added MAC header of size 1 bytes.
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Copied packet: 0x558e4e4be030
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): PacketToSend: 0x558e4e4be030
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx()
++3.000000000s -1 EndDeviceLorawanMac:Shuffle()
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Frequency of the current channel: 868.1
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Waiting time for current channel = 0
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): PacketToSend: 0x558e4e4be030
++3.000000000s -1 LoraChannel:Send(0x558e4e3d6c40, 0x558e4e3ca300, 0x558e4e4be030, 14, SF: 7, headerDisabled: 0, codingRate: 1, bandwidthHz: 125000, nPreamble: 8, crcEnabled: 1, lowDataRateOptimizationEnabled: 0), +6.6816e+07ns, 868.1)
++3.000000000s -1 LoraChannel:Send(): Starting cycle over all 3 PHYs
++3.000000000s -1 LoraChannel:Send(): Sender mobility: 1000:0:0
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 0:1000:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-112.2dbm, distance=1417.74m, delay=+4729ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 1
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 0:0:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-106.581dbm, distance=1004.99m, delay=+3352ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 2
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): m_dataRate: 5, m_rx1DrOffset: 0, replyDataRate: 5.
++3.000003352s 2 LoraChannel:Receive(0x558e4e3d6c40, 2, 0x558e4e4be030, (rxPowerDbm: -106.581, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.000004729s 1 LoraChannel:Receive(0x558e4e3d6c40, 1, 0x558e4e4be030, (rxPowerDbm: -112.2, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.066816010s -1 ClassAEndDeviceLorawanMac:TxFinished()
++3.066819352s 2 GatewayLorawanMac:Receive(0x558e4e319ab0, 0x558e4e4be030)
+GatewayLorawanMac::Receive::MType: 4
++3.066819352s 2 GatewayLorawanMac:Receive(): Received packet: 0x558e4e4be030
++3.066820729s 1 GatewayLorawanMac:Receive(0x558e4e350c60, 0x558e4e4be030)
+GatewayLorawanMac::Receive::MType: 4
++3.066820729s 1 GatewayLorawanMac:Receive(): Received packet: 0x558e4e4be030
++3.068865752s 3 NetworkServer:Receive(0x558e4e4c0bb0, 0x558e4e4bd660, 2048, 02-06-00:00:00:00:00:04)
++3.068865752s 3 EndDeviceStatus:InsertReceivedPacket()
++3.068865752s 3 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068865752s 3 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068865752s 3 EndDeviceStatus:InsertReceivedPacket(): Packet was received for the first time
++3.068865752s 3 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x558e4e4bd660 1
+  02-06-00:00:00:00:00:04 -106.581
+
++3.068867129s 3 NetworkServer:Receive(0x558e4e4c0bb0, 0x558e4e30fd70, 2048, 02-06-00:00:00:00:00:02)
++3.068867129s 3 EndDeviceStatus:InsertReceivedPacket()
++3.068867129s 3 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068867129s 3 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068867129s 3 EndDeviceStatus:InsertReceivedPacket(): Received packet's frame counter: 1
+Current packet's frame counter: 1
++3.068867129s 3 EndDeviceStatus:InsertReceivedPacket(): Packet was already received by another gateway
++3.068867129s 3 EndDeviceStatus:InsertReceivedPacket(): Size of gateway list: 2
++3.068867129s 3 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x558e4e4bd660 2
+  02-06-00:00:00:00:00:02 -112.2
+  02-06-00:00:00:00:00:04 -106.581
+
++4.066816010s -1 ClassAEndDeviceLorawanMac:OpenFirstReceiveWindow()
++4.068865752s 3 EndDeviceStatus:GetFirstReceiveWindowFrequency()
++4.068865752s 3 GatewayLorawanMac:GetWaitingTime()
++4.068865752s 3 EndDeviceStatus:GetLastPacketReceivedFromDevice()
++4.068865752s 3 EndDeviceStatus:GetLastPacketReceivedFromDevice()
++4.068865752s 3 EndDeviceStatus:NeedsReply()
++4.068865752s 3 EndDeviceStatus:GetCompleteReplyPacket()
++4.068865752s 3 EndDeviceStatus:GetCompleteReplyPacket(): Crafting reply packet using an empty payload
++4.068865752s 3 EndDeviceStatus:GetLastPacketReceivedFromDevice()
++4.068865752s 3 EndDeviceStatus:GetCompleteReplyPacket(): Added MAC headerMessageType=3
+Major=0
+
++4.068865752s 3 EndDeviceStatus:GetCompleteReplyPacket(): Added frame headerAddress=0110110|0000000000000011101001000
+ADR=0
+ADRAckReq=0
+ACK=1
+FPending=0
+FOptsLen=0
+FCnt=1
+FPort=0
+
++4.068865752s 3 EndDeviceStatus:GetFirstReceiveWindowFrequency()
++4.068865752s 3 EndDeviceStatus:InitializeReply()
++4.070883352s 2 GatewayLorawanMac:Send(0x558e4e319ab0, 0x558e4e32db00)
++4.070883352s 2 GatewayLorawanMac:Send(): DR: 5
++4.070883352s 2 GatewayLorawanMac:Send(): SF: 7
++4.070883352s 2 GatewayLorawanMac:Send(): BW: 125000
++4.070883352s 2 GatewayLorawanMac:Send(): Freq: 868.1 MHz
++4.070883352s 2 GatewayLorawanMac:Send(): Duration: 0.041216
++4.070883352s 2 LoraChannel:Send(0x558e4e3d6c40, 0x558e4e370ac0, 0x558e4e32db00, 14, SF: 7, headerDisabled: 0, codingRate: 1, bandwidthHz: 125000, nPreamble: 8, crcEnabled: 1, lowDataRateOptimizationEnabled: 0), +4.1216e+07ns, 868.1)
++4.070883352s 2 LoraChannel:Send(): Starting cycle over all 3 PHYs
++4.070883352s 2 LoraChannel:Send(): Sender mobility: 0:0:100
++4.070883352s 2 LoraChannel:Send(): Receiver mobility: 1000:0:0
++4.070883352s 2 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-106.581dbm, distance=1004.99m, delay=+3352ns
++4.070883352s 2 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070883352s 2 LoraChannel:Send(): dstNode = 0
++4.070883352s 2 LoraChannel:Send(): Scheduling reception of the packet
++4.070883352s 2 LoraChannel:Send(): Receiver mobility: 0:1000:100
++4.070883352s 2 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-106.5dbm, distance=1000m, delay=+3336ns
++4.070883352s 2 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070883352s 2 LoraChannel:Send(): dstNode = 1
++4.070883352s 2 LoraChannel:Send(): Scheduling reception of the packet
++4.070886688s 1 LoraChannel:Receive(0x558e4e3d6c40, 1, 0x558e4e32db00, (rxPowerDbm: -106.5, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.070886704s 0 LoraChannel:Receive(0x558e4e3d6c40, 0, 0x558e4e32db00, (rxPowerDbm: -106.581, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.075008010s -1 ClassAEndDeviceLorawanMac:CloseFirstReceiveWindow()
++4.112102688s 1 GatewayLorawanMac:Receive(0x558e4e350c60, 0x558e4e32db00)
+GatewayLorawanMac::Receive::MType: 3
++4.112102688s 1 GatewayLorawanMac:Receive(): Not forwarding downlink message to NetDevice
++4.112102704s 0 ClassAEndDeviceLorawanMac:Receive(0x558e4e35cb60, 0x558e4e32db00)
++4.112102704s 0 ClassAEndDeviceLorawanMac:Receive(): Mac Header: MessageType=3
+Major=0
+
++4.112102704s 0 ClassAEndDeviceLorawanMac:Receive(): Found a downlink packet.
++4.112102704s 0 ClassAEndDeviceLorawanMac:Receive(): Frame Header: Address=0110110|0000000000000011101001000
+ADR=0
+ADRAckReq=0
+ACK=1
+FPending=0
+FOptsLen=0
+FCnt=1
+FPort=0
+
++4.112102704s 0 ClassAEndDeviceLorawanMac:Receive(): The message is for us!
++4.112102704s 0 EndDeviceLorawanMac:ParseCommands(0x558e4e35cb60, Address=0110110|0000000000000011101001000
+ADR=0
+ADRAckReq=0
+ACK=1
+FPending=0
+FOptsLen=0
+FCnt=1
+FPort=0
+)
++4.112102704s 0 EndDeviceLorawanMac:ParseCommands(): The message is an ACK, not waiting for it anymore.
++4.112102704s 0 EndDeviceLorawanMac:ParseCommands(): Reset retransmission variables to default values and cancel retransmission if already scheduled.
++4.112102704s 0 EndDeviceLorawanMac:ParseCommands(): Received ACK packet after 1 transmissions: stopping retransmission procedure. 

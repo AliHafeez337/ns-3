@@ -1,0 +1,1469 @@
+[  1%] Building CXX object src/bridge/CMakeFiles/libbridge-obj.dir/helper/bridge-helper.cc.o
+[  1%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/helper/wimax-helper.cc.o
+[  1%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/helper/application-container.cc.o
+[  1%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/wimax-net-device.cc.o
+[  1%] Building CXX object src/mobility/CMakeFiles/libmobility-obj.dir/helper/group-mobility-helper.cc.o
+[  1%] Building CXX object src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/helper/traffic-control-helper.cc.o
+[  1%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/internet-stack-helper.cc.o
+[  1%] Building CXX object src/mobility/CMakeFiles/libmobility-obj.dir/helper/mobility-helper.cc.o
+[  1%] Building CXX object src/bridge/CMakeFiles/libbridge-obj.dir/model/bridge-channel.cc.o
+[  1%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/helper/net-device-container.cc.o
+[  1%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/helper/node-container.cc.o
+[  1%] Building CXX object src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/cobalt-queue-disc.cc.o
+[  1%] Building CXX object src/bridge/CMakeFiles/libbridge-obj.dir/model/bridge-net-device.cc.o
+[  1%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/helper/packet-socket-helper.cc.o
+[  3%] Building CXX object src/mobility/CMakeFiles/libmobility-obj.dir/helper/ns2-mobility-helper.cc.o
+[  3%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/bs-net-device.cc.o
+[  3%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/helper/simple-net-device-helper.cc.o
+[  3%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/ss-net-device.cc.o
+[  3%] Building CXX object src/propagation/CMakeFiles/libpropagation-obj.dir/model/channel-condition-model.cc.o
+[  3%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/helper/athstats-helper.cc.o
+[  3%] Building CXX object src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-cobalt-queue-disc.cc.o
+[  3%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/helper/trace-helper.cc.o
+[  3%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/wimax-phy.cc.o
+[  3%] Building CXX object src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-propagation-loss-model.cc.o
+[  3%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/internet-trace-helper.cc.o
+[  3%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/wimax-channel.cc.o
+[  3%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/model/application.cc.o
+[  3%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/ss-record.cc.o
+[  3%] Building CXX object src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-codel-queue-disc.cc.o
+[  3%] Building CXX object src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-pie-queue-disc.cc.o
+[  3%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/ipv4-address-helper.cc.o
+[  3%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/model/channel.cc.o
+[  3%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/helper/spectrum-wifi-helper.cc.o
+[  5%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/simple-ofdm-wimax-phy.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/model/net-device.cc.o
+[  5%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-helper.cc.o
+[  5%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/ipv4-global-routing-helper.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/model/node-list.cc.o
+[  5%] Building CXX object src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/pfifo-fast-queue-disc.cc.o
+[  5%] Building CXX object src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/prio-queue-disc.cc.o
+[  5%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/ipv4-interface-container.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/model/node.cc.o
+[  5%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-mac-helper.cc.o
+[  5%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/simple-ofdm-wimax-channel.cc.o
+[  5%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/ipv4-list-routing-helper.cc.o
+[  5%] Building CXX object src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/queue-disc.cc.o
+[  5%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/ipv4-routing-helper.cc.o
+[  5%] Building CXX object src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/tbf-queue-disc.cc.o
+[  5%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/ss-manager.cc.o
+[  5%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/ipv4-static-routing-helper.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/model/socket.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/utils/error-channel.cc.o
+[  5%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/connection-manager.cc.o
+[  5%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/ipv6-address-helper.cc.o
+[  5%] Building CXX object src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-layer.cc.o
+[  5%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/bs-uplink-scheduler.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/utils/net-device-queue-interface.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/utils/packet-socket-address.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/utils/packet-socket-client.cc.o
+[  5%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/bs-uplink-scheduler-simple.cc.o
+[  5%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/ipv6-interface-container.cc.o
+[  5%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/ipv6-list-routing-helper.cc.o
+[  5%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-radio-energy-model-helper.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/utils/packet-socket-factory.cc.o
+[  5%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/ipv6-routing-helper.cc.o
+[  5%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/ipv6-static-routing-helper.cc.o
+[  5%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/bs-uplink-scheduler-mbqos.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/utils/packet-socket-server.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/utils/packet-socket.cc.o
+[  5%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/helper/basic-energy-harvester-helper.cc.o
+[  5%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/neighbor-cache-helper.cc.o
+[  5%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/rip-helper.cc.o
+[  5%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/helper/basic-energy-source-helper.cc.o
+[  5%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/helper/yans-wifi-helper.cc.o
+[  5%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/bs-uplink-scheduler-rtps.cc.o
+[  5%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-harvester-container.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/utils/simple-channel.cc.o
+[  5%] Building CXX object src/network/CMakeFiles/libnetwork-obj.dir/utils/simple-net-device.cc.o
+[  7%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/helper/ripng-helper.cc.o
+[  7%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/bs-scheduler.cc.o
+[  7%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-harvester-helper.cc.o
+[  7%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/arp-cache.cc.o
+[  7%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/ap-wifi-mac.cc.o
+[  7%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-model-helper.cc.o
+[  7%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/bs-scheduler-simple.cc.o
+[  7%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/bs-scheduler-rtps.cc.o
+[  7%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/arp-l3-protocol.cc.o
+[  7%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-source-container.cc.o
+[  7%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-helper.cc.o
+[  7%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
+[  7%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/burst-profile-manager.cc.o
+[  7%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/candidate-queue.cc.o
+[  7%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/helper/li-ion-energy-source-helper.cc.o
+[  7%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/helper/rv-battery-model-helper.cc.o
+[  7%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/ss-scheduler.cc.o
+[  7%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o
+[  7%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/model/basic-energy-harvester.cc.o
+[  7%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/global-route-manager-impl.cc.o
+[  7%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/service-flow.cc.o
+[  9%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helper.cc.o
+[  9%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.o
+[  9%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o
+[  9%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/model/basic-energy-source.cc.o
+[  9%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/service-flow-manager.cc.o
+[  9%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/service-flow-record.cc.o
+[  9%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/ss-link-manager.cc.o
+[  9%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/global-route-manager.cc.o
+[  9%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/global-router-interface.cc.o
+[  9%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o
+[  9%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/icmpv4-l4-protocol.cc.o
+[  9%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/model/device-energy-model-container.cc.o
+[  9%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/model/two-ray-spectrum-propagation-loss-model.cc.o
+[  9%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/bs-link-manager.cc.o
+[  9%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/he/constant-obss-pd-algorithm.cc.o
+[  9%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/model/device-energy-model.cc.o
+[ 11%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/model/energy-harvester.cc.o
+[ 11%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/model/energy-source.cc.o
+[ 11%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/bandwidth-manager.cc.o
+[ 11%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.cc.o
+[ 11%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/icmpv6-l4-protocol.cc.o
+[ 11%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/model/li-ion-energy-source.cc.o
+[ 11%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/model/rv-battery-model.cc.o
+[ 11%] Building CXX object src/energy/CMakeFiles/libenergy-obj.dir/model/simple-device-energy-model.cc.o
+[ 11%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/ul-job.cc.o
+[ 11%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-phy.cc.o
+[ 11%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/ss-service-flow-manager.cc.o
+[ 11%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.cc.o
+[ 11%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.cc.o
+[ 11%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o
+[ 11%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/bs-service-flow-manager.cc.o
+[ 11%] Building CXX object src/aodv/CMakeFiles/libaodv-obj.dir/helper/aodv-helper.cc.o
+[ 11%] Building CXX object src/aodv/CMakeFiles/libaodv-obj.dir/model/aodv-neighbor.cc.o
+[ 11%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4-end-point-demux.cc.o
+[ 11%] Building CXX object src/wimax/CMakeFiles/libwimax-obj.dir/model/ipcs-classifier.cc.o
+[ 11%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4-end-point.cc.o
+[ 11%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4-global-routing.cc.o
+[ 11%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4-interface.cc.o
+[ 11%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o
+[ 11%] Building CXX object src/aodv/CMakeFiles/libaodv-obj.dir/model/aodv-routing-protocol.cc.o
+[ 11%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/helper/bulk-send-helper.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4-l3-protocol.cc.o
+[ 13%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4-list-routing.cc.o
+[ 13%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/helper/on-off-helper.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4-packet-probe.cc.o
+[ 13%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/helper/packet-sink-helper.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4-raw-socket-factory-impl.cc.o
+[ 13%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/helper/three-gpp-http-helper.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4-raw-socket-impl.cc.o
+[ 13%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/helper/udp-client-server-helper.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4-route.cc.o
+[ 13%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/he/obss-pd-algorithm.cc.o
+[ 13%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/helper/udp-echo-helper.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4-routing-protocol.cc.o
+[ 13%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation-loss-model.cc.o
+[ 13%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4-static-routing.cc.o
+[ 13%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/model/application-packet-probe.cc.o
+[ 13%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/mpdu-aggregator.cc.o
+[ 13%] Building CXX object src/aodv/CMakeFiles/libaodv-obj.dir/model/aodv-rqueue.cc.o
+[ 13%] Building CXX object src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o
+[ 13%] Building CXX object src/aodv/CMakeFiles/libaodv-obj.dir/model/aodv-rtable.cc.o
+[ 13%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-utils.cc.o
+[ 13%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/model/bulk-send-application.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv4.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-autoconfigured-prefix.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-end-point-demux.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-end-point.cc.o
+[ 13%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-extension-demux.cc.o
+[ 15%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-extension.cc.o
+[ 15%] Building CXX object src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-position-allocator.cc.o
+[ 15%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/spectrum-wifi-phy.cc.o
+[ 15%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-interface.cc.o
+[ 15%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-l3-protocol.cc.o
+[ 15%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-list-routing.cc.o
+[ 17%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/model/onoff-application.cc.o
+[ 17%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-option-demux.cc.o
+[ 17%] Building CXX object src/buildings/CMakeFiles/libbuildings-obj.dir/helper/buildings-helper.cc.o
+[ 17%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-option.cc.o
+[ 17%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-packet-probe.cc.o
+[ 17%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-raw-socket-factory-impl.cc.o
+[ 17%] Building CXX object src/csma/CMakeFiles/libcsma-obj.dir/helper/csma-helper.cc.o
+[ 19%] Building CXX object src/csma/CMakeFiles/libcsma-obj.dir/model/csma-channel.cc.o
+[ 19%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/model/packet-loss-counter.cc.o
+[ 19%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/model/packet-sink.cc.o
+[ 19%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/sta-wifi-mac.cc.o
+[ 19%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/model/three-gpp-http-client.cc.o
+[ 19%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/txop.cc.o
+[ 19%] Building CXX object src/csma/CMakeFiles/libcsma-obj.dir/model/csma-net-device.cc.o
+[ 19%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/model/three-gpp-http-server.cc.o
+[ 19%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-raw-socket-impl.cc.o
+[ 19%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/model/udp-client.cc.o
+[ 19%] Building CXX object src/csma-layout/CMakeFiles/libcsma-layout-obj.dir/model/csma-star-helper.cc.o
+[ 19%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/model/udp-echo-client.cc.o
+[ 19%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-route.cc.o
+[ 19%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/model/udp-echo-server.cc.o
+[ 19%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-routing-protocol.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6-static-routing.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ipv6.cc.o
+[ 21%] Building CXX object src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/helper/point-to-point-helper.cc.o
+[ 21%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/model/udp-server.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/loopback-net-device.cc.o
+[ 21%] Building CXX object src/applications/CMakeFiles/libapplications-obj.dir/model/udp-trace-client.cc.o
+[ 21%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-phy.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ndisc-cache.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/rip.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/ripng.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/tcp-cubic.cc.o
+[ 21%] Building CXX object src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-channel.cc.o
+[ 21%] Building CXX object src/dsdv/CMakeFiles/libdsdv-obj.dir/helper/dsdv-helper.cc.o
+[ 21%] Building CXX object src/dsr/CMakeFiles/libdsr-obj.dir/helper/dsr-helper.cc.o
+[ 21%] Building CXX object src/dsdv/CMakeFiles/libdsdv-obj.dir/model/dsdv-packet-queue.cc.o
+[ 21%] Building CXX object src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-net-device.cc.o
+[ 21%] Building CXX object src/dsdv/CMakeFiles/libdsdv-obj.dir/model/dsdv-routing-protocol.cc.o
+[ 21%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac.cc.o
+[ 21%] Building CXX object src/dsdv/CMakeFiles/libdsdv-obj.dir/model/dsdv-rtable.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/tcp-l4-protocol.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/tcp-socket-base.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/tcp-socket-factory-impl.cc.o
+[ 21%] Building CXX object src/dsr/CMakeFiles/libdsr-obj.dir/helper/dsr-main-helper.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/tcp-socket.cc.o
+[ 21%] Building CXX object src/fd-net-device/CMakeFiles/libfd-net-device-obj.dir/helper/tap-fd-net-device-helper.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/tcp-westwood-plus.cc.o
+[ 21%] Building CXX object src/flow-monitor/CMakeFiles/libflow-monitor-obj.dir/helper/flow-monitor-helper.cc.o
+[ 21%] Building CXX object src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-errorbuff.cc.o
+[ 21%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/udp-l4-protocol.cc.o
+[ 21%] Building CXX object src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-maintain-buff.cc.o
+[ 23%] Building CXX object src/flow-monitor/CMakeFiles/libflow-monitor-obj.dir/model/ipv4-flow-probe.cc.o
+[ 23%] Building CXX object src/flow-monitor/CMakeFiles/libflow-monitor-obj.dir/model/ipv6-flow-probe.cc.o
+[ 23%] Building CXX object src/fd-net-device/CMakeFiles/libfd-net-device-obj.dir/helper/emu-fd-net-device-helper.cc.o
+[ 23%] Building CXX object src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-network-queue.cc.o
+[ 25%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/udp-socket-factory-impl.cc.o
+[ 25%] Building CXX object src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-passive-buff.cc.o
+[ 25%] Building CXX object src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-options.cc.o
+[ 25%] Building CXX object src/fd-net-device/CMakeFiles/libfd-net-device-obj.dir/helper/fd-net-device-helper.cc.o
+[ 25%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/udp-socket-impl.cc.o
+[ 25%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/dhcp-helper.cc.o
+[ 25%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/lora-net-device.cc.o
+[ 25%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-net-device.cc.o
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-net-device.cc: In member function ‘void ns3::lorawan::LoraNetDevice::CompleteConfig()’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-net-device.cc:102:16: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LorawanMac]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  102 |   if (m_mac == 0 || m_phy == 0 || m_node == 0 || m_configComplete)
+      |                ^
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute-accessor-helper.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute-helper.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/attribute-helper.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/network/model/address.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/network/model/net-device.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/net-device.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-net-device.h:24,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/lora-net-device.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-net-device.cc:21:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-net-device.cc:102:30: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LoraPhy]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  102 |   if (m_mac == 0 || m_phy == 0 || m_node == 0 || m_configComplete)
+      |                              ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-net-device.cc:102:45: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::Node]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  102 |   if (m_mac == 0 || m_phy == 0 || m_node == 0 || m_configComplete)
+      |                                             ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:23:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-net-device.cc: In member function ‘void ns3::lorawan::LoraNetDevice::Send(ns3::Ptr<ns3::Packet>)’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-net-device.cc:117:23: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LorawanMac]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  117 |   NS_ASSERT (m_mac != 0);
+      |                       ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-net-device.cc: In member function ‘void ns3::lorawan::LoraNetDevice::Send1(ns3::Ptr<ns3::Packet>, int)’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-net-device.cc:128:23: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LorawanMac]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  128 |   NS_ASSERT (m_mac != 0);
+      |                       ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-net-device.cc: In member function ‘virtual bool ns3::lorawan::LoraNetDevice::IsLinkUp() const’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-net-device.cc:220:19: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LoraPhy]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  220 |   return m_phy != 0;
+      |                   ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+[ 25%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/ping-helper.cc.o
+[ 25%] Building CXX object src/fd-net-device/CMakeFiles/libfd-net-device-obj.dir/model/fd-net-device.cc.o
+[ 25%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/lorawan-mac.cc.o
+[ 25%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/ping6-helper.cc.o
+[ 25%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/radvd-helper.cc.o
+[ 25%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/v4ping-helper.cc.o
+[ 25%] Building CXX object src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-rcache.cc.o
+[ 25%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/v4traceroute-helper.cc.o
+[ 25%] Building CXX object src/internet/CMakeFiles/libinternet-obj.dir/model/udp-socket.cc.o
+[ 25%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/dhcp-client.cc.o
+[ 25%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/lora-phy.cc.o
+[ 25%] Building CXX object src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/helper/lr-wpan-helper.cc.o
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-phy.cc: In member function ‘ns3::Ptr<ns3::MobilityModel> ns3::lorawan::LoraPhy::GetMobility()’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-phy.cc:113:21: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::MobilityModel]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  113 |   if (m_mobility != 0)
+      |                     ^
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute-construction-list.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/object.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/object.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-phy.h:24,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/lora-phy.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-phy.cc:21:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+[ 25%] Building CXX object src/virtual-net-device/CMakeFiles/libvirtual-net-device-obj.dir/model/virtual-net-device.cc.o
+[ 25%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/dhcp-server.cc.o
+[ 25%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/lora-channel.cc.o
+[ 25%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy.cc.o
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute-construction-list.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/object.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/object.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-phy.h:24,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/lora-phy.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-channel.h:28,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/lora-channel.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-channel.cc:21:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-channel.cc: In member function ‘void ns3::lorawan::LoraChannel::Send(ns3::Ptr<ns3::lorawan::LoraPhy>, ns3::Ptr<ns3::Packet>, double, ns3::lorawan::LoraTxParameters, ns3::Time, double) const’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-channel.cc:119:32: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::MobilityModel]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  119 |   NS_ASSERT (senderMobility != 0);     // Make sure it's available
+      |                                ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-channel.cc:154:31: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::NetDevice]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  154 |           if (dstNetDevice != 0)
+      |                               ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+[ 25%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/helper/emu-epc-helper.cc.o
+[ 25%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/ping.cc.o
+[ 25%] Building CXX object src/mesh/CMakeFiles/libmesh-obj.dir/helper/dot11s/dot11s-installer.cc.o
+[ 25%] Building CXX object src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-mac.cc.o
+[ 25%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/gateway-lorawan-mac.cc.o
+[ 25%] Building CXX object src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-routing.cc.o
+[ 25%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/end-device-lorawan-mac.cc.o
+[ 25%] Building CXX object src/mesh/CMakeFiles/libmesh-obj.dir/helper/flame/flame-installer.cc.o
+[ 25%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/ping6.cc.o
+[ 25%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/helper/cc-helper.cc.o
+[ 25%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/helper/epc-helper.cc.o
+[ 25%] Building CXX object src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-net-device.cc.o
+[ 25%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/radvd.cc.o
+[ 25%] Building CXX object src/mesh/CMakeFiles/libmesh-obj.dir/helper/mesh-helper.cc.o
+[ 25%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/helper/lte-global-pathloss-database.cc.o
+[ 25%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-common.cc.o
+[ 25%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/class-a-end-device-lorawan-mac.cc.o
+[ 25%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-radio-energy-model.cc.o
+[ 25%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/helper/lte-helper.cc.o
+[ 25%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/v4ping.cc.o
+[ 25%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/gateway-lora-phy.cc.o
+[ 25%] Building CXX object src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-phy.cc.o
+[ 25%] Building CXX object src/mesh/CMakeFiles/libmesh-obj.dir/helper/mesh-stack-installer.cc.o
+[ 25%] Building CXX object src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-rsendbuff.cc.o
+[ 27%] Building CXX object src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/hwmp-protocol.cc.o
+[ 29%] Building CXX object src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/v4traceroute.cc.o
+[ 29%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-manager.cc.o
+[ 29%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/end-device-lora-phy.cc.o
+[ 29%] Building CXX object src/netanim/CMakeFiles/libnetanim-obj.dir/model/animation-interface.cc.o
+[ 29%] Building CXX object src/point-to-point-layout/CMakeFiles/libpoint-to-point-layout-obj.dir/model/point-to-point-dumbbell.cc.o
+[ 29%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/simple-end-device-lora-phy.cc.o
+[ 29%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/helper/acoustic-modem-energy-model-helper.cc.o
+[ 29%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/simple-gateway-lora-phy.cc.o
+[ 29%] Building CXX object src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/peer-management-protocol-mac.cc.o
+[ 29%] Building CXX object src/point-to-point-layout/CMakeFiles/libpoint-to-point-layout-obj.dir/model/point-to-point-grid.cc.o
+[ 29%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/helper/uan-helper.cc.o
+[ 29%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-phy-interface.cc.o
+[ 29%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/periodic-sender.cc.o
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/periodic-sender.cc: In member function ‘virtual void ns3::lorawan::PeriodicSender::StartApplication()’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/periodic-sender.cc:136:16: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LorawanMac]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  136 |   if (m_mac == 0)
+      |                ^
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/event-id.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/event-id.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/network/model/application.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/application.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/periodic-sender.h:24,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/periodic-sender.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/periodic-sender.cc:21:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/simple-ref-count.h:24,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/event-impl.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/event-id.h:22:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/periodic-sender.cc:142:27: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LorawanMac]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  142 |       NS_ASSERT (m_mac != 0);
+      |                           ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+[ 29%] Building CXX object src/point-to-point-layout/CMakeFiles/libpoint-to-point-layout-obj.dir/model/point-to-point-star.cc.o
+[ 29%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/model/acoustic-modem-energy-model.cc.o
+[ 29%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/one-shot-sender.cc.o
+[ 29%] Building CXX object src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-channel.cc.o
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/one-shot-sender.cc: In member function ‘virtual void ns3::lorawan::OneShotSender::StartApplication()’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/one-shot-sender.cc:86:16: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LorawanMac]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+   86 |   if (m_mac == 0)
+      |                ^
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/event-id.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/event-id.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/network/model/application.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/application.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/one-shot-sender.h:24,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/one-shot-sender.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/one-shot-sender.cc:21:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/simple-ref-count.h:24,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/event-impl.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/event-id.h:22:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/one-shot-sender.cc:92:27: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LorawanMac]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+   92 |       NS_ASSERT (m_mac != 0);
+      |                           ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+[ 29%] Building CXX object src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/peer-management-protocol.cc.o
+[ 29%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/forwarder.cc.o
+[ 29%] Building CXX object src/wave/CMakeFiles/libwave-obj.dir/helper/wave-bsm-helper.cc.o
+[ 29%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/helper/lte-hex-grid-enb-topology-helper.cc.o
+[ 29%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/model/uan-channel.cc.o
+[ 29%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/network-server.cc.o
+[ 29%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/network-status.cc.o
+[ 29%] Building CXX object src/wave/CMakeFiles/libwave-obj.dir/helper/wave-helper.cc.o
+[ 29%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac-aloha.cc.o
+[ 29%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/helper/lte-stats-calculator.cc.o
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.cc: In member function ‘void ns3::lorawan::NetworkServer::AddGateway(ns3::Ptr<ns3::Node>, ns3::Ptr<ns3::NetDevice>)’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.cc:91:27: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::PointToPointNetDevice]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+   91 |       if (p2pNetDevice != 0)
+      |                           ^
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute-construction-list.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/object.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/object.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.h:25,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/network-server.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.cc:22:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:23:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.cc:101:23: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::GatewayLorawanMac]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  101 |   NS_ASSERT (gwMac != 0);
+      |                       ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.cc: In member function ‘void ns3::lorawan::NetworkServer::AddNode(ns3::Ptr<ns3::Node>)’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.cc:137:28: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LoraNetDevice]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  137 |       if (loraNetDevice != 0)
+      |                            ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+[ 29%] Building CXX object src/mesh/CMakeFiles/libmesh-obj.dir/model/flame/flame-protocol.cc.o
+[ 29%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac-cw.cc.o
+[ 29%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac-rc-gw.cc.o
+[ 29%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/network-controller.cc.o
+[ 29%] Building CXX object src/nix-vector-routing/CMakeFiles/libnix-vector-routing-obj.dir/helper/nix-vector-helper.cc.o
+[ 29%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/helper/no-backhaul-epc-helper.cc.o
+[ 29%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/network-controller-components.cc.o
+[ 29%] Building CXX object src/nix-vector-routing/CMakeFiles/libnix-vector-routing-obj.dir/model/nix-vector-routing.cc.o
+[ 29%] Building CXX object src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-l2-routing-protocol.cc.o
+[ 29%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac-rc.cc.o
+[ 29%] Building CXX object src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-point-device.cc.o
+[ 29%] Building CXX object src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-wifi-interface-mac.cc.o
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/lora-frame-header.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/end-device-lorawan-mac.h:29,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/end-device-lorawan-mac.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/class-a-end-device-lorawan-mac.h:28,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/class-a-end-device-lorawan-mac.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/end-device-status.h:28,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/end-device-status.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-status.h:25,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/network-status.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-controller-components.h:27,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/network-controller-components.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-controller-components.cc:21:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-frame-header.h: In instantiation of ‘ns3::Ptr<T> ns3::lorawan::LoraFrameHeader::GetMacCommand() [with T = ns3::lorawan::LinkCheckReq]’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-controller-components.cc:169:64:   required from here
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/lora-frame-header.h:331:34: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LinkCheckReq]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  331 |       if ((*it)->GetObject<T> () != 0)
+      |           ~~~~~~~~~~~~~~~~~~~~~~~^~~~
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute-construction-list.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/object.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/object.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-controller-components.h:24:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+[ 29%] Building CXX object src/wave/CMakeFiles/libwave-obj.dir/helper/wifi-80211p-helper.cc.o
+[ 29%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/network-scheduler.cc.o
+[ 29%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/model/uan-net-device.cc.o
+[ 29%] Building CXX object src/wave/CMakeFiles/libwave-obj.dir/model/bsm-application.cc.o
+[ 31%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/model/uan-phy-dual.cc.o
+[ 31%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/model/uan-phy-gen.cc.o
+[ 31%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/end-device-status.cc.o
+[ 31%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/model/uan-phy.cc.o
+[ 33%] Building CXX object src/olsr/CMakeFiles/libolsr-obj.dir/helper/olsr-helper.cc.o
+[ 33%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/helper/point-to-point-epc-helper.cc.o
+[ 33%] Building CXX object src/uan/CMakeFiles/libuan-obj.dir/model/uan-transducer-hd.cc.o
+[ 33%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/gateway-status.cc.o
+[ 33%] Building CXX object src/olsr/CMakeFiles/libolsr-obj.dir/model/olsr-routing-protocol.cc.o
+[ 33%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/lora-radio-energy-model.cc.o
+[ 35%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/adr-component.cc.o
+[ 35%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/helper/radio-environment-map-helper.cc.o
+[ 35%] Building CXX object src/wave/CMakeFiles/libwave-obj.dir/model/channel-scheduler.cc.o
+[ 35%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/helper/lora-radio-energy-model-helper.cc.o
+[ 35%] Building CXX object src/sixlowpan/CMakeFiles/libsixlowpan-obj.dir/helper/sixlowpan-helper.cc.o
+[ 35%] Building CXX object src/tap-bridge/CMakeFiles/libtap-bridge-obj.dir/helper/tap-bridge-helper.cc.o
+[ 35%] Building CXX object src/sixlowpan/CMakeFiles/libsixlowpan-obj.dir/model/sixlowpan-net-device.cc.o
+[ 35%] Building CXX object src/tap-bridge/CMakeFiles/libtap-bridge-obj.dir/model/tap-bridge.cc.o
+[ 35%] Building CXX object src/wave/CMakeFiles/libwave-obj.dir/model/default-channel-scheduler.cc.o
+[ 35%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/component-carrier-enb.cc.o
+[ 35%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/component-carrier-ue.cc.o
+[ 35%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/helper/lora-helper.cc.o
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute-construction-list.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/object-factory.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/object-factory.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lora-phy-helper.h:24,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/lora-phy-helper.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lora-helper.h:24,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/lora-helper.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lora-helper.cc:21:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lora-helper.cc: In member function ‘virtual ns3::NetDeviceContainer ns3::lorawan::LoraHelper::Install(const ns3::lorawan::LoraPhyHelper&, const ns3::lorawan::LorawanMacHelper&, ns3::NodeContainer) const’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lora-helper.cc:60:27: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LoraPhy]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+   60 |         NS_ASSERT (phy != 0);
+      |                           ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lora-helper.cc:107:25: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LorawanMac]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  107 |       NS_ASSERT (mac != 0);
+      |                         ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lora-helper.cc: In member function ‘void ns3::lorawan::LoraHelper::DoPrintDeviceStatus(ns3::NodeContainer, ns3::NodeContainer, std::string)’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lora-helper.cc:220:30: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::MobilityModel]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  220 |       NS_ASSERT (position != 0);
+      |                              ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lora-helper.cc:223:35: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LoraNetDevice]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  223 |       NS_ASSERT (loraNetDevice != 0);
+      |                                   ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+[ 35%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/epc-enb-application.cc.o
+[ 35%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/helper/lora-phy-helper.cc.o
+[ 35%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/epc-mme-application.cc.o
+[ 35%] Building CXX object src/wave/CMakeFiles/libwave-obj.dir/model/ocb-wifi-mac.cc.o
+[ 35%] Building CXX object src/topology-read/CMakeFiles/libtopology-read-obj.dir/helper/topology-reader-helper.cc.o
+[ 35%] Building CXX object src/topology-read/CMakeFiles/libtopology-read-obj.dir/model/inet-topology-reader.cc.o
+[ 35%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/helper/lorawan-mac-helper.cc.o
+[ 35%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/helper/periodic-sender-helper.cc.o
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lorawan-mac-helper.cc: In member function ‘ns3::Ptr<ns3::lorawan::LorawanMac> ns3::lorawan::LorawanMacHelper::Create(ns3::Ptr<ns3::Node>, ns3::Ptr<ns3::NetDevice>) const’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lorawan-mac-helper.cc:80:44: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LoraDeviceAddressGenerator]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+   80 |   if (m_deviceType == ED_A && m_addrGen != 0)
+      |                                            ^
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute-accessor-helper.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute-helper.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/attribute-helper.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/network/model/address.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/network/model/net-device.h:23,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/net-device.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lorawan-mac-helper.h:24,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/lorawan-mac-helper.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lorawan-mac-helper.cc:21:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:23:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lorawan-mac-helper.cc: In static member function ‘static std::vector<int> ns3::lorawan::LorawanMacHelper::SetSpreadingFactorsUp(ns3::NodeContainer, ns3::NodeContainer, ns3::Ptr<ns3::lorawan::LoraChannel>)’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lorawan-mac-helper.cc:464:30: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::MobilityModel]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  464 |       NS_ASSERT (position != 0);
+      |                              ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lorawan-mac-helper.cc:467:35: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LoraNetDevice]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  467 |       NS_ASSERT (loraNetDevice != 0);
+      |                                   ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lorawan-mac-helper.cc:470:25: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::ClassAEndDeviceLorawanMac]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  470 |       NS_ASSERT (mac != 0);
+      |                         ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lorawan-mac-helper.cc: In static member function ‘static std::vector<int> ns3::lorawan::LorawanMacHelper::SetSpreadingFactorsGivenDistribution(ns3::NodeContainer, ns3::NodeContainer, std::vector<double>)’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lorawan-mac-helper.cc:623:30: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::MobilityModel]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  623 |       NS_ASSERT (position != 0);
+      |                              ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lorawan-mac-helper.cc:626:35: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LoraNetDevice]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  626 |       NS_ASSERT (loraNetDevice != 0);
+      |                                   ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/lorawan-mac-helper.cc:629:25: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::ClassAEndDeviceLorawanMac]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+  629 |       NS_ASSERT (mac != 0);
+      |                         ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15: note: in definition of macro ‘NS_ASSERT’
+   69 |         if (!(condition))                                                                          \
+      |               ^~~~~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+[ 35%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/helper/one-shot-sender-helper.cc.o
+[ 35%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/helper/forwarder-helper.cc.o
+[ 35%] Building CXX object src/topology-read/CMakeFiles/libtopology-read-obj.dir/model/orbis-topology-reader.cc.o
+[ 35%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/helper/network-server-helper.cc.o
+[ 35%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/epc-pgw-application.cc.o
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/forwarder-helper.cc: In member function ‘ns3::Ptr<ns3::Application> ns3::lorawan::ForwarderHelper::InstallPriv(ns3::Ptr<ns3::Node>) const’:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/forwarder-helper.cc:82:60: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LoraNetDevice]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+   82 |       if (currentNetDevice->GetObject<LoraNetDevice> () != 0)
+      |                                                            ^
+In file included from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute-construction-list.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/object-factory.h:22,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/object-factory.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/forwarder-helper.h:24,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/forwarder-helper.h:1,
+                 from /home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/forwarder-helper.cc:21:
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/helper/forwarder-helper.cc:90:73: warning: ‘ns3::Ptr<T>::operator Tester*() const [with T = ns3::PointToPointNetDevice]’ is deprecated: see operator bool [-Wdeprecated-declarations]
+   90 |       else if (currentNetDevice->GetObject<PointToPointNetDevice> () != 0)
+      |                                                                         ^
+/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1: note: declared here
+  781 | Ptr<T>::operator Tester*() const // NS_DEPRECATED_3_37
+      | ^~~~~~
+[ 35%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/epc-sgw-application.cc.o
+[ 35%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/epc-tft-classifier.cc.o
+[ 35%] Building CXX object src/topology-read/CMakeFiles/libtopology-read-obj.dir/model/rocketfuel-topology-reader.cc.o
+[ 35%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/epc-ue-nas.cc.o
+[ 35%] Building CXX object src/wave/CMakeFiles/libwave-obj.dir/model/vsa-manager.cc.o
+[ 37%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/epc-x2.cc.o
+[ 37%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-control-messages.cc.o
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-enb-component-carrier-manager.cc.o
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-enb-mac.cc.o
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-enb-net-device.cc.o
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-enb-phy.cc.o
+[ 39%] Building CXX object src/wave/CMakeFiles/libwave-obj.dir/model/wave-frame-exchange-manager.cc.o
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-enb-rrc.cc.o
+[ 39%] Building CXX object src/topology-read/CMakeFiles/libtopology-read-obj.dir/model/topology-reader.cc.o
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-net-device.cc.o
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-network-debug.so
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-bridge-debug.so
+[ 39%] Building CXX object src/wave/CMakeFiles/libwave-obj.dir/model/wave-net-device.cc.o
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-traffic-control-debug.so
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-phy.cc.o
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-radio-bearer-info.cc.o
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-mobility-debug.so
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-rrc-protocol-ideal.cc.o
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-energy-debug.so
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-rrc-protocol-real.cc.o
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-csma-debug.so
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-spectrum-phy.cc.o
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-ue-mac.cc.o
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-point-to-point-debug.so
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-fd-net-device-debug.so
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-virtual-net-device-debug.so
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-uan-debug.so
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-topology-read-debug.so
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-internet-debug.so
+[ 39%] Linking CXX shared library ../../lib/libns3-dev-propagation-debug.so
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-ue-net-device.cc.o
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-ue-phy.cc.o
+[ 39%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/lte-ue-rrc.cc.o
+[ 41%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/no-op-component-carrier-manager.cc.o
+[ 41%] Building CXX object src/lte/CMakeFiles/liblte-obj.dir/model/rem-spectrum-phy.cc.o
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-spectrum-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-buildings-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-wifi-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-point-to-point-layout-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-lr-wpan-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-nix-vector-routing-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-olsr-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-sixlowpan-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-tap-bridge-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-wimax-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-applications-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-csma-layout-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-dsdv-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-flow-monitor-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-internet-apps-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-lorawan-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-aodv-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-dsr-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-mesh-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-wave-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-lte-debug.so
+[ 41%] Linking CXX shared library ../../lib/libns3-dev-netanim-debug.so
+[ 41%] Building CXX object scratch/CMakeFiles/scratch_lorawan_test13_test13.dir/lorawan/test13/test13.cc.o
+[ 41%] Linking CXX executable lorawan/test13/ns3-dev-test13-debug
+SimpleLorawanNetworkExample:main(): Creating the channel...
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Setting up helpers...
++0.000000000s -1 LoraPhyHelper:LoraPhyHelper(0x7ffed5f22cf0)
++0.000000000s -1 LoraFrameHeader:SetAsUplink()
++0.000000000s -1 LoraFrameHeader:SetAdr(0x7ffed5f22c20, 0)
++0.000000000s -1 LoraFrameHeader:GetSerializedSize()
++0.000000000s -1 LoraFrameHeader:GetSerializedSize(): LoraFrameHeader serialized size: 8
++0.000000000s -1 LoraFrameHeader:Serialize()
++0.000000000s -1 LoraFrameHeader:Serialize(): Serializing the following data: 
++0.000000000s -1 LoraFrameHeader:Serialize(): Address: 0000000|0000000000000000000000000
++0.000000000s -1 LoraFrameHeader:Serialize(): ADR: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): ADRAckReq: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): Ack: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): fPending: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): fOptsLen: 0
++0.000000000s -1 LoraFrameHeader:Serialize(): fCnt: 3
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Packet to send...: 0x55a79b6cc500
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Creating the end device...
++0.000000000s -1 LoraPhyHelper:SetDeviceType(0x7ffed5f22cf0, 1)
++0.000000000s -1 LorawanMacHelper:SetDeviceType(0x7ffed5f22cc0, 1)
++0.000000000s -1 LorawanMacHelper:SetAddressGenerator(0x7ffed5f22cc0)
++0.000000000s -1 LoraHelper:Install()
++0.000000000s -1 LoraNetDevice:LoraNetDevice()
++0.000000000s -1 LoraPhyHelper:Create(0x7ffed5f22cf0, 0, 0x55a79b6ccd30)
++0.000000000s -1 LoraInterferenceHelper:LoraInterferenceHelper(0x55a79b5d9338)
++0.000000000s -1 LoraInterferenceHelper:SetCollisionMatrix(): Setting the GOURSAUD collision matrix
++0.000000000s -1 LoraPhy:SetChannel(0x55a79b5d9300, 0x55a79b5e5c40)
++0.000000000s -1 LoraChannel:Add(0x55a79b5e5c40, 0x55a79b5d9300)
++0.000000000s -1 LoraPhy:SetDevice(0x55a79b5d9300, 0x55a79b6ccd30)
++0.000000000s -1 LoraHelper:Install(): Done creating the PHY
++0.000000000s -1 LogicalLoraChannelHelper:LogicalLoraChannelHelper(0x55a79b56bbd8)
++0.000000000s -1 LorawanMac:LorawanMac(0x55a79b56bb60)
++0.000000000s -1 EndDeviceLorawanMac:EndDeviceLorawanMac(0x55a79b56bb60)
++0.000000000s -1 ClassAEndDeviceLorawanMac:ClassAEndDeviceLorawanMac(0x55a79b56bb60)
++0.000000000s -1 EndDeviceLorawanMac:SetDeviceAddress(0x55a79b56bb60, 0110110|0000000000000011101001000)
++0.000000000s -1 LorawanMacHelper:ConfigureForEuRegion()
++0.000000000s -1 LorawanMacHelper:ApplyCommonEuConfigurations()
++0.000000000s -1 LogicalLoraChannelHelper:LogicalLoraChannelHelper(0x7ffed5f22000)
++0.000000000s -1 LogicalLoraChannelHelper:AddSubBand(0x7ffed5f22000, 868, 868.6)
++0.000000000s -1 LogicalLoraChannelHelper:AddSubBand(0x7ffed5f22000, 868.7, 869.2)
++0.000000000s -1 LogicalLoraChannelHelper:AddSubBand(0x7ffed5f22000, 869.4, 869.65)
++0.000000000s -1 LogicalLoraChannel:LogicalLoraChannel(0x55a79b6c70a0)
++0.000000000s -1 LogicalLoraChannel:LogicalLoraChannel(0x55a79b6c5820)
++0.000000000s -1 LogicalLoraChannel:LogicalLoraChannel(0x55a79b6c67d0)
++0.000000000s -1 LogicalLoraChannelHelper:AddChannel(0x7ffed5f22000, 0x55a79b6c70a0)
++0.000000000s -1 LogicalLoraChannelHelper:AddChannel(0x7ffed5f22000, 0x55a79b6c5820)
++0.000000000s -1 LogicalLoraChannelHelper:AddChannel(0x7ffed5f22000, 0x55a79b6c67d0)
++0.000000000s -1 LogicalLoraChannelHelper:~LogicalLoraChannelHelper(0x7ffed5f220d0)
++0.000000000s -1 LogicalLoraChannelHelper:~LogicalLoraChannelHelper(0x7ffed5f22000)
++0.000000000s -1 LoraHelper:Install(): Done creating the MAC
++0.000000000s -1 LoraNetDevice:SetNode(0x55a79b6ccd30)
++0.000000000s -1 LoraNetDevice:CompleteConfig()
++0.000000000s -1 LoraNetDevice:SetIfIndex(0x55a79b6ccd30, 0)
++0.000000000s -1 LoraNetDevice:SetReceiveCallback()
++0.000000000s -1 LoraHelper:Install(): node=0x55a79b58f960, mob=1000:0:0
++0.000000000s -1 EndDeviceLorawanMac:SetMType(): Message type is set to 4
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Creating the gateway...
++0.000000000s -1 LoraPhyHelper:SetDeviceType(0x7ffed5f22cf0, 0)
++0.000000000s -1 LorawanMacHelper:SetDeviceType(0x7ffed5f22cc0, 0)
++0.000000000s -1 LoraHelper:Install()
++0.000000000s -1 LoraNetDevice:LoraNetDevice()
++0.000000000s -1 LoraPhyHelper:Create(0x7ffed5f22cf0, 1, 0x55a79b6cd9e0)
++0.000000000s -1 LoraInterferenceHelper:LoraInterferenceHelper(0x55a79b57fca8)
++0.000000000s -1 LoraInterferenceHelper:SetCollisionMatrix(): Setting the GOURSAUD collision matrix
++0.000000000s -1 GatewayLoraPhy:GatewayLoraPhy()
++0.000000000s -1 SimpleGatewayLoraPhy:SimpleGatewayLoraPhy()
++0.000000000s -1 LoraPhy:SetChannel(0x55a79b57fc70, 0x55a79b5e5c40)
++0.000000000s -1 LoraChannel:Add(0x55a79b5e5c40, 0x55a79b57fc70)
++0.000000000s -1 GatewayLoraPhy:AddFrequency(0x55a79b57fc70, 868.1)
++0.000000000s -1 GatewayLoraPhy:AddFrequency(0x55a79b57fc70, 868.3)
++0.000000000s -1 GatewayLoraPhy:AddFrequency(0x55a79b57fc70, 868.5)
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 LoraPhy:SetDevice(0x55a79b57fc70, 0x55a79b6cd9e0)
++0.000000000s -1 LoraHelper:Install(): Done creating the PHY
++0.000000000s -1 LogicalLoraChannelHelper:LogicalLoraChannelHelper(0x55a79b55fcd8)
++0.000000000s -1 LorawanMac:LorawanMac(0x55a79b55fc60)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x55a79b55fc60)
++0.000000000s -1 LorawanMacHelper:ConfigureForEuRegion()
++0.000000000s -1 LorawanMacHelper:ApplyCommonEuConfigurations()
++0.000000000s -1 LogicalLoraChannelHelper:LogicalLoraChannelHelper(0x7ffed5f21fe0)
++0.000000000s -1 LogicalLoraChannelHelper:AddSubBand(0x7ffed5f21fe0, 868, 868.6)
++0.000000000s -1 LogicalLoraChannelHelper:AddSubBand(0x7ffed5f21fe0, 868.7, 869.2)
++0.000000000s -1 LogicalLoraChannelHelper:AddSubBand(0x7ffed5f21fe0, 869.4, 869.65)
++0.000000000s -1 LogicalLoraChannel:LogicalLoraChannel(0x55a79b6ce080)
++0.000000000s -1 LogicalLoraChannel:LogicalLoraChannel(0x55a79b6ce130)
++0.000000000s -1 LogicalLoraChannel:LogicalLoraChannel(0x55a79b6ce190)
++0.000000000s -1 LogicalLoraChannelHelper:AddChannel(0x7ffed5f21fe0, 0x55a79b6ce080)
++0.000000000s -1 LogicalLoraChannelHelper:AddChannel(0x7ffed5f21fe0, 0x55a79b6ce130)
++0.000000000s -1 LogicalLoraChannelHelper:AddChannel(0x7ffed5f21fe0, 0x55a79b6ce190)
++0.000000000s -1 LogicalLoraChannelHelper:~LogicalLoraChannelHelper(0x7ffed5f220b0)
++0.000000000s -1 LogicalLoraChannelHelper:~LogicalLoraChannelHelper(0x7ffed5f21fe0)
++0.000000000s -1 LorawanMacHelper:ConfigureForEuRegion(): Resetting reception paths
++0.000000000s -1 GatewayLoraPhy:ResetReceptionPaths(0x55a79b57fc70)
++0.000000000s -1 GatewayLoraPhy:~ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:~ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:~ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:~ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:~ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:~ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:~ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:~ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddFrequency(0x55a79b57fc70, 868.1)
++0.000000000s -1 GatewayLoraPhy:AddFrequency(0x55a79b57fc70, 868.3)
++0.000000000s -1 GatewayLoraPhy:AddFrequency(0x55a79b57fc70, 868.5)
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 GatewayLoraPhy:AddReceptionPath()
++0.000000000s -1 GatewayLoraPhy:ReceptionPath()
++0.000000000s -1 LoraHelper:Install(): Done creating the MAC
++0.000000000s -1 LoraNetDevice:SetNode(0x55a79b6cd9e0)
++0.000000000s -1 LoraNetDevice:CompleteConfig()
++0.000000000s -1 LoraNetDevice:SetIfIndex(0x55a79b6cd9e0, 0)
++0.000000000s -1 LoraNetDevice:SetReceiveCallback()
++0.000000000s -1 LoraHelper:Install(): node=0x55a79b5d4a90, mob=0:0:100
++0.000000000s -1 LorawanMacHelper:SetSpreadingFactorsUp()
++0.000000000s -1 EndDeviceLorawanMac:SetDataRate(0x55a79b56bb60, 5)
++0.000000000s -1 NetworkStatus:NetworkStatus()
++0.000000000s -1 NetworkController:NetworkController()
++0.000000000s -1 NetworkServer:NetworkServer()
++0.000000000s -1 NetworkServer:AddGateway(0x55a79b6ceae0, 0x55a79b5d4a90)
++0.000000000s -1 GatewayStatus:GatewayStatus(0x55a79b6ce9e0)
++0.000000000s -1 NetworkStatus:AddGateway(0x55a79b6ceb80)
++0.000000000s -1 NetworkStatus:AddGateway(): Added to the list a gateway with address 02-06-00:00:00:00:00:02
++0.000000000s -1 NetworkServer:AddNodes()
++0.000000000s -1 NetworkServer:AddNode(0x55a79b6ceae0, 0x55a79b58f960)
++0.000000000s -1 NetworkStatus:AddNode(0x55a79b6ceb80, 0x55a79b56bb60)
++0.000000000s -1 EndDeviceLorawanMac:GetDeviceAddress(0x55a79b56bb60)
++0.000000000s -1 EndDeviceStatus:EndDeviceStatus(0110110|0000000000000011101001000)
++0.000000000s -1 NetworkStatus:AddNode(): Added to the list a device with address 0110110|0000000000000011101001000
++0.000000000s -1 NetworkServer:AddComponent(0x55a79b6ceae0, 0x55a79b6d00f0)
++0.000000000s -1 NetworkController:Install(0x55a79b6cec60)
++0.000000000s -1 NetworkServer:AddComponent(0x55a79b6ceae0, 0x55a79b6cf1e0)
++0.000000000s -1 NetworkController:Install(0x55a79b6cec60)
++0.000000000s -1 NetworkServer:AddComponent(0x55a79b6ceae0, 0x55a79b5caa40)
++0.000000000s -1 NetworkController:Install(0x55a79b6cec60)
++0.000000000s -1 LoraNetDevice:SetReceiveCallback()
++0.000000000s 2 NetworkServer:StartApplication()
+-------------------------------------------------------------
+Function deviceSend called with arguments: device: 0, endDevices: <>, pkt: 0x55a79b6cc500
++3.000000000s -1 SimpleLorawanNetworkExample:deviceSend(): Device: 0 - LoraNetDevice:0x55a79b6ccd30
++3.000000000s -1 LoraNetDevice:Send(0x55a79b6ccd30, 0x55a79b6cc500)
++3.000000000s -1 EndDeviceLorawanMac:Send(0x55a79b56bb60, 0x55a79b6cc500)
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay()
++3.000000000s -1 LogicalLoraChannelHelper:GetEnabledChannelList(0x55a79b56bbd8)
++3.000000000s -1 LogicalLoraChannelHelper:GetWaitingTime(0x55a79b56bbd8, 0x55a79b6c70a0)
++3.000000000s -1 LogicalLoraChannelHelper:GetWaitingTime(): Waiting time: 0
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.1 is = 0.
++3.000000000s -1 LogicalLoraChannelHelper:GetWaitingTime(0x55a79b56bbd8, 0x55a79b6c5820)
++3.000000000s -1 LogicalLoraChannelHelper:GetWaitingTime(): Waiting time: 0
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.3 is = 0.
++3.000000000s -1 LogicalLoraChannelHelper:GetWaitingTime(0x55a79b56bbd8, 0x55a79b6c67d0)
++3.000000000s -1 LogicalLoraChannelHelper:GetWaitingTime(): Waiting time: 0
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.5 is = 0.
++3.000000000s -1 ClassAEndDeviceLorawanMac:GetNextClassTransmissionDelay()
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx()
++3.000000000s -1 LogicalLoraChannelHelper:GetEnabledChannelList(0x55a79b56bbd8)
++3.000000000s -1 EndDeviceLorawanMac:Shuffle()
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Frequency of the current channel: 868.3
++3.000000000s -1 LogicalLoraChannelHelper:GetWaitingTime(0x55a79b56bbd8, 0x55a79b6c5820)
++3.000000000s -1 LogicalLoraChannelHelper:GetWaitingTime(): Waiting time: 0
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Waiting time for current channel = 0
++3.000000000s -1 LogicalLoraChannelHelper:GetTxPowerForChannel()
++3.000000000s -1 EndDeviceLorawanMac:DoSend(0x55a79b56bb60)
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Received a new packet from application. Resetting retransmission parameters.
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): APP packet: 0x55a79b6cc500.
++3.000000000s -1 EndDeviceLorawanMac:ApplyNecessaryOptions()
++3.000000000s -1 LoraFrameHeader:SetAsUplink()
++3.000000000s -1 LoraFrameHeader:SetAdr(0x7ffed5f22030, 0)
++3.000000000s -1 LoraFrameHeader:GetSerializedSize()
++3.000000000s -1 LoraFrameHeader:GetSerializedSize(): LoraFrameHeader serialized size: 8
++3.000000000s -1 LoraFrameHeader:Serialize()
++3.000000000s -1 LoraFrameHeader:Serialize(): Serializing the following data: 
++3.000000000s -1 LoraFrameHeader:Serialize(): Address: 0110110|0000000000000011101001000
++3.000000000s -1 LoraFrameHeader:Serialize(): ADR: 0
++3.000000000s -1 LoraFrameHeader:Serialize(): ADRAckReq: 0
++3.000000000s -1 LoraFrameHeader:Serialize(): Ack: 0
++3.000000000s -1 LoraFrameHeader:Serialize(): fPending: 0
++3.000000000s -1 LoraFrameHeader:Serialize(): fOptsLen: 0
++3.000000000s -1 LoraFrameHeader:Serialize(): fCnt: 1
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Added frame header of size +3.000000000s -1 LoraFrameHeader:GetSerializedSize()
++3.000000000s -1 LoraFrameHeader:GetSerializedSize(): LoraFrameHeader serialized size: 8
+8 bytes.
++3.000000000s -1 EndDeviceLorawanMac:ApplyNecessaryOptions()
++3.000000000s -1 LorawanMacHeader:SetMType(0x7ffed5f220a0, 4)
++3.000000000s -1 LorawanMacHeader:SetMajor()
++3.000000000s -1 LorawanMacHeader:GetSerializedSize()
++3.000000000s -1 LorawanMacHeader:Serialize()
++3.000000000s -1 LorawanMacHeader:Serialize(): Serialization of MAC header: 10000001
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Message type is 4
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): It is a confirmed packet. Setting retransmission parameters and decreasing the number of transmissions left.
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Added MAC header of size +3.000000000s -1 LorawanMacHeader:GetSerializedSize()
+1 bytes.
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Copied packet: 0x55a79b6cd030
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): PacketToSend: 0x55a79b6cd030
++3.000000000s -1 LorawanMac:GetSfFromDataRate(0x55a79b56bb60, 5)
++3.000000000s -1 LorawanMac:GetBandwidthFromDataRate(0x55a79b56bb60, 5)
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx()
++3.000000000s -1 LogicalLoraChannelHelper:GetEnabledChannelList(0x55a79b56bbd8)
++3.000000000s -1 EndDeviceLorawanMac:Shuffle()
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Frequency of the current channel: 868.1
++3.000000000s -1 LogicalLoraChannelHelper:GetWaitingTime(0x55a79b56bbd8, 0x55a79b6c70a0)
++3.000000000s -1 LogicalLoraChannelHelper:GetWaitingTime(): Waiting time: 0
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Waiting time for current channel = 0
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): PacketToSend: 0x55a79b6cd030
++3.000000000s -1 SimpleEndDeviceLoraPhy:Send(0x55a79b5d9300, 0x55a79b6cd030, SF: 7, headerDisabled: 0, codingRate: 1, bandwidthHz: 125000, nPreamble: 8, crcEnabled: 1, lowDataRateOptimizationEnabled: 0), 868.1, 14)
++3.000000000s -1 SimpleEndDeviceLoraPhy:Send(): Current state: 0
++3.000000000s -1 LoraPhy:GetOnAirTime(0x55a79b6cd030, SF: 7, headerDisabled: 0, codingRate: 1, bandwidthHz: 125000, nPreamble: 8, crcEnabled: 1, lowDataRateOptimizationEnabled: 0))
++3.000000000s -1 LoraPhy:GetOnAirTime(): Packet of size 27 bytes
++3.000000000s -1 LoraPhy:GetOnAirTime(): Time computation: num = 232, den = 28, payloadSymbNb = 53, tSym = 0.001024
++3.000000000s -1 LoraPhy:GetOnAirTime(): tPreamble = 0.012544
++3.000000000s -1 LoraPhy:GetOnAirTime(): tPayload = 0.054272
++3.000000000s -1 LoraPhy:GetOnAirTime(): Total time = 0.066816
++3.000000000s -1 EndDeviceLoraPhy:SwitchToTx()
++3.000000000s -1 SimpleEndDeviceLoraPhy:Send(): Sending the packet in the channel
++3.000000000s -1 LoraChannel:Send(0x55a79b5e5c40, 0x55a79b5d9300, 0x55a79b6cd030, 14, SF: 7, headerDisabled: 0, codingRate: 1, bandwidthHz: 125000, nPreamble: 8, crcEnabled: 1, lowDataRateOptimizationEnabled: 0), +6.6816e+07ns, 868.1)
++3.000000000s -1 LoraPhy:GetMobility()
++3.000000000s -1 LoraNetDevice:GetNode(0x55a79b6ccd30)
++3.000000000s -1 LoraChannel:Send(): Starting cycle over all 2 PHYs
++3.000000000s -1 LoraChannel:Send(): Sender mobility: 1000:0:0
++3.000000000s -1 LoraPhy:GetMobility()
++3.000000000s -1 LoraNetDevice:GetNode(0x55a79b6cd9e0)
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 0:0:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-106.581dbm, distance=1004.99m, delay=+3352ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraNetDevice:GetNode(0x55a79b6cd9e0)
++3.000000000s -1 LoraChannel:Send(): dstNode = 1
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 LoraNetDevice:GetNode(0x55a79b6ccd30)
++3.000000000s -1 LoraPhy:GetOnAirTime(0x55a79b6cd030, SF: 7, headerDisabled: 0, codingRate: 1, bandwidthHz: 125000, nPreamble: 8, crcEnabled: 1, lowDataRateOptimizationEnabled: 0))
++3.000000000s -1 LoraPhy:GetOnAirTime(): Packet of size 27 bytes
++3.000000000s -1 LoraPhy:GetOnAirTime(): Time computation: num = 232, den = 28, payloadSymbNb = 53, tSym = 0.001024
++3.000000000s -1 LoraPhy:GetOnAirTime(): tPreamble = 0.012544
++3.000000000s -1 LoraPhy:GetOnAirTime(): tPayload = 0.054272
++3.000000000s -1 LoraPhy:GetOnAirTime(): Total time = 0.066816
++3.000000000s -1 LogicalLoraChannelHelper:AddEvent(0x55a79b56bbd8, +6.6816e+07ns, 0x55a79b6c70a0)
++3.000000000s -1 LogicalLoraChannelHelper:AddEvent(): Time on air: 0.066816
++3.000000000s -1 LogicalLoraChannelHelper:AddEvent(): m_aggregatedDutyCycle: 1
++3.000000000s -1 LogicalLoraChannelHelper:AddEvent(): Current time: 3
++3.000000000s -1 LogicalLoraChannelHelper:AddEvent(): Next transmission on this sub-band allowed at time: 9.61478
++3.000000000s -1 LogicalLoraChannelHelper:AddEvent(): Next aggregated transmission allowed at time 3
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): m_dataRate: 5, m_rx1DrOffset: 0, replyDataRate: 5.
++3.000000000s -1 LorawanMac:GetSfFromDataRate(0x55a79b56bb60, 5)
++3.000003352s 1 LoraChannel:Receive(0x55a79b5e5c40, 1, 0x55a79b6cd030, (rxPowerDbm: -106.581, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.000003352s 1 SimpleGatewayLoraPhy:StartReceive(0x55a79b57fc70, 0x55a79b6cd030, -106.581, +6.6816e+07ns, 868.1)
++3.000003352s 1 LoraInterferenceHelper:Add(0x55a79b57fca8, 0.066816, -106.581, 7, 0x55a79b6cd030, 868.1)
++3.000003352s 1 SimpleGatewayLoraPhy:StartReceive(): Scheduling reception of a packet, occupying one demodulator
++3.066816000s -1 EndDeviceLoraPhy:SwitchToStandby()
++3.066816010s -1 ClassAEndDeviceLorawanMac:TxFinished()
++3.066816010s -1 EndDeviceLoraPhy:SwitchToSleep()
++3.066819352s 1 SimpleGatewayLoraPhy:EndReceive(0x55a79b57fc70, 0x55a79b6cd030, (3 s - 3.06682 s), SF7, -106.581 dBm, 868.1 MHz)
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(0x55a79b57fca8, 0x55a79b640040)
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Current number of events in LoraInterferenceHelper: 1
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Different channel or same event
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Cumulative Interference Energy: 0
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Signal power in W: 2.19723e-14
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Signal energy: 1.4681e-15
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): The needed isolation to survive is 6 dB
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): The current SNIR is inf dB
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived interference with SF 
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Cumulative Interference Energy: 0
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Signal power in W: 2.19723e-14
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Signal energy: 1.4681e-15
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): The needed isolation to survive is -16 dB
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): The current SNIR is inf dB
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived interference with SF 
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Cumulative Interference Energy: 0
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Signal power in W: 2.19723e-14
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Signal energy: 1.4681e-15
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): The needed isolation to survive is -18 dB
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): The current SNIR is inf dB
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived interference with SF 	
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Cumulative Interference Energy: 0
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Signal power in W: 2.19723e-14
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Signal energy: 1.4681e-15
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): The needed isolation to survive is -19 dB
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): The current SNIR is inf dB
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived interference with SF 
+
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Cumulative Interference Energy: 0
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Signal power in W: 2.19723e-14
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Signal energy: 1.4681e-15
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): The needed isolation to survive is -19 dB
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): The current SNIR is inf dB
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived interference with SF 
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Cumulative Interference Energy: 0
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Signal power in W: 2.19723e-14
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Signal energy: 1.4681e-15
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): The needed isolation to survive is -20 dB
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): The current SNIR is inf dB
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived interference with SF 
++3.066819352s 1 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived all interference
++3.066819352s 1 SimpleGatewayLoraPhy:EndReceive(): Packet with SF 7 received correctly
++3.066819352s 1 LoraNetDevice:GetNode(0x55a79b6cd9e0)
++3.066819352s 1 GatewayLorawanMac:Receive(0x55a79b55fc60, 0x55a79b6cd030)
++3.066819352s 1 LorawanMacHeader:Deserialize()
++3.066819352s 1 LorawanMacHeader:IsUplink()
++3.066819352s 1 LoraNetDevice:Receive(0x55a79b6cd9e0, 0x55a79b6cd110)
++3.066819352s 1 LoraNetDevice:Receive(): Calling receiveCallback
++3.066819352s 1 GatewayLorawanMac:Receive(): Received packet: 0x55a79b6cd030
++3.068865752s 2 NetworkServer:Receive(0x55a79b6ceae0, 0x55a79b518ef0, 2048, 02-06-00:00:00:00:00:02)
++3.068865752s 2 NetworkScheduler:OnReceivedPacket(0x55a79b518ef0)
++3.068865752s 2 LorawanMacHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:SetAsUplink()
++3.068865752s 2 LoraFrameHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.068865752s 2 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADR: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): Ack: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fPending: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fCnt: 1
++3.068865752s 2 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.068865752s 2 NetworkStatus:GetEndDeviceStatus(0x55a79b6ceb80, 0x55a79b518ef0)
++3.068865752s 2 LorawanMacHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.068865752s 2 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADR: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): Ack: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fPending: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fCnt: 1
++3.068865752s 2 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.068865752s 2 NetworkStatus:GetEndDeviceStatus(0x55a79b6ceb80, 0x55a79b518ef0)
++3.068865752s 2 LorawanMacHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.068865752s 2 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADR: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): Ack: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fPending: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fCnt: 1
++3.068865752s 2 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.068865752s 2 NetworkStatus:OnReceivedPacket(0x55a79b6ceb80, 0x55a79b518ef0, 02-06-00:00:00:00:00:02)
++3.068865752s 2 LorawanMacHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:SetAsUplink()
++3.068865752s 2 LoraFrameHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.068865752s 2 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADR: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): Ack: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fPending: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fCnt: 1
++3.068865752s 2 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.068865752s 2 NetworkStatus:OnReceivedPacket(): Node address: 0110110|0000000000000011101001000
++3.068865752s 2 EndDeviceStatus:InsertReceivedPacket()
++3.068865752s 2 LorawanMacHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:SetAsUplink()
++3.068865752s 2 LoraFrameHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.068865752s 2 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADR: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): Ack: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fPending: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fCnt: 1
++3.068865752s 2 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.068865752s 2 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068865752s 2 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068865752s 2 EndDeviceStatus:InsertReceivedPacket(): Packet was received for the first time
++3.068865752s 2 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x55a79b518ef0 1
+  02-06-00:00:00:00:00:02 -106.581
+
++3.068865752s 2 NetworkController:OnNewPacket(0x55a79b6cec60, 0x55a79b518ef0)
++3.068865752s 2 NetworkStatus:GetEndDeviceStatus(0x55a79b6ceb80, 0x55a79b518ef0)
++3.068865752s 2 LorawanMacHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.068865752s 2 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADR: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): Ack: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fPending: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fCnt: 1
++3.068865752s 2 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.068865752s 2 LoraFrameHeader:SetAsUplink()
++3.068865752s 2 LorawanMacHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.068865752s 2 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADR: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): Ack: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fPending: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fCnt: 1
++3.068865752s 2 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.068865752s 2 LorawanMacHeader:GetMType()
++3.068865752s 2 LoraFrameHeader:SetAsDownlink()
++3.068865752s 2 LoraFrameHeader:SetAck(0x55a79b568dd0, 1)
++3.068865752s 2 LorawanMacHeader:SetMType(0x55a79b568dc0, 3)
++3.068865752s 2 NetworkStatus:GetEndDeviceStatus(0x55a79b6ceb80, 0x55a79b518ef0)
++3.068865752s 2 LorawanMacHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.068865752s 2 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADR: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): Ack: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fPending: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fCnt: 1
++3.068865752s 2 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++3.068865752s 2 NetworkStatus:GetEndDeviceStatus(0x55a79b6ceb80, 0x55a79b518ef0)
++3.068865752s 2 LorawanMacHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize()
++3.068865752s 2 LoraFrameHeader:Deserialize(): Deserialized data: 
++3.068865752s 2 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADR: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): Ack: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fPending: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fOptsLen: 0
++3.068865752s 2 LoraFrameHeader:Deserialize(): fCnt: 1
++3.068865752s 2 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++4.066816010s -1 ClassAEndDeviceLorawanMac:OpenFirstReceiveWindow()
++4.066816010s -1 EndDeviceLoraPhy:SwitchToStandby()
++4.066816010s -1 LorawanMac:GetSfFromDataRate(0x55a79b56bb60, 5)
++4.066816010s -1 LorawanMac:GetBandwidthFromDataRate(0x55a79b56bb60, 5)
++4.068865752s 2 NetworkScheduler:OnReceiveWindowOpportunity(0110110|0000000000000011101001000)
++4.068865752s 2 NetworkScheduler:OnReceiveWindowOpportunity(): Opening receive window number 1 for device 0110110|0000000000000011101001000
++4.068865752s 2 EndDeviceStatus:GetFirstReceiveWindowFrequency()
++4.068865752s 2 GatewayLorawanMac:GetWaitingTime()
++4.068865752s 2 LogicalLoraChannel:LogicalLoraChannel(0x55a79b6cc5b0)
++4.068865752s 2 LogicalLoraChannelHelper:GetWaitingTime(0x55a79b55fcd8, 0x55a79b6cc5b0)
++4.068865752s 2 LogicalLoraChannelHelper:GetWaitingTime(): Waiting time: 0
++4.068865752s 2 LogicalLoraChannel:~LogicalLoraChannel(0x55a79b6cc5b0)
++4.068865752s 2 NetworkScheduler:OnReceiveWindowOpportunity(): Found available gateway with address: 02-06-00:00:00:00:00:02
++4.068865752s 2 NetworkStatus:GetEndDeviceStatus(0x55a79b6ceb80, 0110110|0000000000000011101001000)
++4.068865752s 2 NetworkController:BeforeSendingReply(0x55a79b6cec60)
++4.068865752s 2 EndDeviceStatus:GetLastPacketReceivedFromDevice()
++4.068865752s 2 LoraFrameHeader:SetAsUplink()
++4.068865752s 2 LorawanMacHeader:Deserialize()
++4.068865752s 2 LoraFrameHeader:Deserialize()
++4.068865752s 2 LoraFrameHeader:Deserialize(): Deserialized data: 
++4.068865752s 2 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++4.068865752s 2 LoraFrameHeader:Deserialize(): ADR: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): Ack: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): fPending: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): fOptsLen: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): fCnt: 1
++4.068865752s 2 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++4.068865752s 2 EndDeviceStatus:GetLastPacketReceivedFromDevice()
++4.068865752s 2 LoraFrameHeader:SetAsUplink()
++4.068865752s 2 LorawanMacHeader:Deserialize()
++4.068865752s 2 LoraFrameHeader:Deserialize()
++4.068865752s 2 LoraFrameHeader:Deserialize(): Deserialized data: 
++4.068865752s 2 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++4.068865752s 2 LoraFrameHeader:Deserialize(): ADR: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): Ack: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): fPending: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): fOptsLen: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): fCnt: 1
++4.068865752s 2 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++4.068865752s 2 EndDeviceStatus:NeedsReply()
++4.068865752s 2 NetworkScheduler:OnReceiveWindowOpportunity(): A reply is needed
++4.068865752s 2 EndDeviceStatus:GetCompleteReplyPacket()
++4.068865752s 2 EndDeviceStatus:GetCompleteReplyPacket(): Crafting reply packet using an empty payload
++4.068865752s 2 EndDeviceStatus:GetLastPacketReceivedFromDevice()
++4.068865752s 2 LoraFrameHeader:SetAsUplink()
++4.068865752s 2 LorawanMacHeader:Deserialize()
++4.068865752s 2 LoraFrameHeader:Deserialize()
++4.068865752s 2 LoraFrameHeader:Deserialize(): Deserialized data: 
++4.068865752s 2 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++4.068865752s 2 LoraFrameHeader:Deserialize(): ADR: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): Ack: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): fPending: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): fOptsLen: 0
++4.068865752s 2 LoraFrameHeader:Deserialize(): fCnt: 1
++4.068865752s 2 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++4.068865752s 2 LorawanMacHeader:SetMType(0x55a79b568dc0, 3)
++4.068865752s 2 LoraFrameHeader:GetSerializedSize()
++4.068865752s 2 LoraFrameHeader:GetSerializedSize(): LoraFrameHeader serialized size: 8
++4.068865752s 2 LoraFrameHeader:Serialize()
++4.068865752s 2 LoraFrameHeader:Serialize(): Serializing the following data: 
++4.068865752s 2 LoraFrameHeader:Serialize(): Address: 0110110|0000000000000011101001000
++4.068865752s 2 LoraFrameHeader:Serialize(): ADR: 0
++4.068865752s 2 LoraFrameHeader:Serialize(): ADRAckReq: 0
++4.068865752s 2 LoraFrameHeader:Serialize(): Ack: 1
++4.068865752s 2 LoraFrameHeader:Serialize(): fPending: 0
++4.068865752s 2 LoraFrameHeader:Serialize(): fOptsLen: 0
++4.068865752s 2 LoraFrameHeader:Serialize(): fCnt: 1
++4.068865752s 2 LorawanMacHeader:GetSerializedSize()
++4.068865752s 2 LorawanMacHeader:Serialize()
++4.068865752s 2 LorawanMacHeader:Serialize(): Serialization of MAC header: 01100000
++4.068865752s 2 EndDeviceStatus:GetCompleteReplyPacket(): Added MAC headerMessageType=3
+Major=0
+
++4.068865752s 2 EndDeviceStatus:GetCompleteReplyPacket(): Added frame header+4.068865752s 2 LoraFrameHeader:Print()
+Address=0110110|0000000000000011101001000
+ADR=0
+ADRAckReq=0
+ACK=1
+FPending=0
+FOptsLen=0
+FCnt=1
+FPort=0
+
++4.068865752s 2 EndDeviceStatus:GetFirstReceiveWindowFrequency()
++4.068865752s 2 NetworkStatus:SendThroughGateway2(0x55a79b6cd0a0, 02-06-00:00:00:00:00:02)
++4.068865752s 2 NetworkStatus:GetEndDeviceStatus(0x55a79b6ceb80, 0110110|0000000000000011101001000)
++4.068865752s 2 NetworkStatus:GetEndDeviceStatus(0x55a79b6ceb80, 0110110|0000000000000011101001000)
++4.068865752s 2 EndDeviceStatus:InitializeReply()
++4.070883352s 1 LoraNetDevice:Send(0x55a79b6cd9e0, 0x55a79b51ed70)
++4.070883352s 1 GatewayLorawanMac:Send(0x55a79b55fc60, 0x55a79b51ed70)
++4.070883352s 1 LorawanMacHeader:Deserialize()
++4.070883352s 1 LorawanMacHeader:Deserialize()
++4.070883352s 1 LorawanMacHeader:SetMType(0x7ffed5f21df0, 2)
++4.070883352s 1 LorawanMacHeader:GetSerializedSize()
++4.070883352s 1 LorawanMacHeader:Serialize()
++4.070883352s 1 LorawanMacHeader:Serialize(): Serialization of MAC header: 01000000
++4.070883352s 1 LorawanMacHeader:GetMType()
+GatewayLorawanMac::Send::MType: 2
++4.070883352s 1 GatewayLorawanMac:Send(): DR: 5
++4.070883352s 1 GatewayLorawanMac:Send(): SF: +4.070883352s 1 LorawanMac:GetSfFromDataRate(0x55a79b55fc60, 5)
+7
++4.070883352s 1 GatewayLorawanMac:Send(): BW: +4.070883352s 1 LorawanMac:GetBandwidthFromDataRate(0x55a79b55fc60, 5)
+125000
++4.070883352s 1 GatewayLorawanMac:Send(): Freq: 868.1 MHz
++4.070883352s 1 LogicalLoraChannel:LogicalLoraChannel(0x55a79b6c58e0)
++4.070883352s 1 LogicalLoraChannelHelper:GetWaitingTime(0x55a79b55fcd8, 0x55a79b6c58e0)
++4.070883352s 1 LogicalLoraChannelHelper:GetWaitingTime(): Waiting time: 0
++4.070883352s 1 LogicalLoraChannel:~LogicalLoraChannel(0x55a79b6c58e0)
++4.070883352s 1 LorawanMac:GetSfFromDataRate(0x55a79b55fc60, 5)
++4.070883352s 1 LorawanMac:GetBandwidthFromDataRate(0x55a79b55fc60, 5)
++4.070883352s 1 LoraPhy:GetOnAirTime(0x55a79b51ed70, SF: 7, headerDisabled: 0, codingRate: 1, bandwidthHz: 125000, nPreamble: 8, crcEnabled: 1, lowDataRateOptimizationEnabled: 0))
++4.070883352s 1 LoraPhy:GetOnAirTime(): Packet of size 9 bytes
++4.070883352s 1 LoraPhy:GetOnAirTime(): Time computation: num = 88, den = 28, payloadSymbNb = 28, tSym = 0.001024
++4.070883352s 1 LoraPhy:GetOnAirTime(): tPreamble = 0.012544
++4.070883352s 1 LoraPhy:GetOnAirTime(): tPayload = 0.028672
++4.070883352s 1 LoraPhy:GetOnAirTime(): Total time = 0.041216
++4.070883352s 1 GatewayLorawanMac:Send(): Duration: 0.041216
++4.070883352s 1 LogicalLoraChannel:LogicalLoraChannel(0x55a79b6c58e0)
++4.070883352s 1 LogicalLoraChannelHelper:GetTxPowerForChannel()
++4.070883352s 1 LogicalLoraChannel:~LogicalLoraChannel(0x55a79b6c58e0)
++4.070883352s 1 LogicalLoraChannel:LogicalLoraChannel(0x55a79b6c58e0)
++4.070883352s 1 LogicalLoraChannelHelper:AddEvent(0x55a79b55fcd8, +4.1216e+07ns, 0x55a79b6c58e0)
++4.070883352s 1 LogicalLoraChannelHelper:AddEvent(): Time on air: 0.041216
++4.070883352s 1 LogicalLoraChannelHelper:AddEvent(): m_aggregatedDutyCycle: 1
++4.070883352s 1 LogicalLoraChannelHelper:AddEvent(): Current time: 4.07088
++4.070883352s 1 LogicalLoraChannelHelper:AddEvent(): Next transmission on this sub-band allowed at time: 8.15127
++4.070883352s 1 LogicalLoraChannelHelper:AddEvent(): Next aggregated transmission allowed at time 4.07088
++4.070883352s 1 LogicalLoraChannel:~LogicalLoraChannel(0x55a79b6c58e0)
++4.070883352s 1 SimpleGatewayLoraPhy:Send(0x55a79b57fc70, 0x55a79b51ed70, 868.1, 14)
++4.070883352s 1 LoraPhy:GetOnAirTime(0x55a79b51ed70, SF: 7, headerDisabled: 0, codingRate: 1, bandwidthHz: 125000, nPreamble: 8, crcEnabled: 1, lowDataRateOptimizationEnabled: 0))
++4.070883352s 1 LoraPhy:GetOnAirTime(): Packet of size 9 bytes
++4.070883352s 1 LoraPhy:GetOnAirTime(): Time computation: num = 88, den = 28, payloadSymbNb = 28, tSym = 0.001024
++4.070883352s 1 LoraPhy:GetOnAirTime(): tPreamble = 0.012544
++4.070883352s 1 LoraPhy:GetOnAirTime(): tPayload = 0.028672
++4.070883352s 1 LoraPhy:GetOnAirTime(): Total time = 0.041216
++4.070883352s 1 SimpleGatewayLoraPhy:Send(): Duration of packet: +4.1216e+07ns, SF7
++4.070883352s 1 LoraChannel:Send(0x55a79b5e5c40, 0x55a79b57fc70, 0x55a79b51ed70, 14, SF: 7, headerDisabled: 0, codingRate: 1, bandwidthHz: 125000, nPreamble: 8, crcEnabled: 1, lowDataRateOptimizationEnabled: 0), +4.1216e+07ns, 868.1)
++4.070883352s 1 LoraPhy:GetMobility()
++4.070883352s 1 LoraNetDevice:GetNode(0x55a79b6cd9e0)
++4.070883352s 1 LoraChannel:Send(): Starting cycle over all 2 PHYs
++4.070883352s 1 LoraChannel:Send(): Sender mobility: 0:0:100
++4.070883352s 1 LoraPhy:GetMobility()
++4.070883352s 1 LoraNetDevice:GetNode(0x55a79b6ccd30)
++4.070883352s 1 LoraChannel:Send(): Receiver mobility: 1000:0:0
++4.070883352s 1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-106.581dbm, distance=1004.99m, delay=+3352ns
++4.070883352s 1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070883352s 1 LoraNetDevice:GetNode(0x55a79b6ccd30)
++4.070883352s 1 LoraChannel:Send(): dstNode = 0
++4.070883352s 1 LoraChannel:Send(): Scheduling reception of the packet
++4.070883352s 1 LoraNetDevice:GetNode(0x55a79b6cd9e0)
++4.070886704s 0 LoraChannel:Receive(0x55a79b5e5c40, 0, 0x55a79b51ed70, (rxPowerDbm: -106.581, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.070886704s 0 SimpleEndDeviceLoraPhy:StartReceive(0x55a79b5d9300, 0x55a79b51ed70, -106.581, 7, +4.1216e+07ns, 868.1)
++4.070886704s 0 LoraInterferenceHelper:Add(0x55a79b5d9338, 0.041216, -106.581, 7, 0x55a79b51ed70, 868.1)
++4.070886704s 0 EndDeviceLoraPhy:SwitchToRx()
++4.070886704s 0 SimpleEndDeviceLoraPhy:StartReceive(): Scheduling reception of a packet. End in 0.041216 seconds
++4.075008010s -1 ClassAEndDeviceLorawanMac:CloseFirstReceiveWindow()
++4.075008010s -1 EndDeviceLoraPhy:GetState()
++4.112102704s 0 SimpleEndDeviceLoraPhy:EndReceive(0x55a79b5d9300, 0x55a79b51ed70, 0x55a79b6c58e0)
++4.112102704s 0 EndDeviceLoraPhy:SwitchToStandby()
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(0x55a79b5d9338, 0x55a79b6c58e0)
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Current number of events in LoraInterferenceHelper: 1
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Different channel or same event
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Cumulative Interference Energy: 0
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Signal power in W: 2.19723e-14
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Signal energy: 9.05611e-16
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): The needed isolation to survive is 6 dB
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): The current SNIR is inf dB
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived interference with SF 
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Cumulative Interference Energy: 0
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Signal power in W: 2.19723e-14
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Signal energy: 9.05611e-16
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): The needed isolation to survive is -16 dB
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): The current SNIR is inf dB
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived interference with SF 
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Cumulative Interference Energy: 0
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Signal power in W: 2.19723e-14
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Signal energy: 9.05611e-16
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): The needed isolation to survive is -18 dB
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): The current SNIR is inf dB
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived interference with SF 	
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Cumulative Interference Energy: 0
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Signal power in W: 2.19723e-14
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Signal energy: 9.05611e-16
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): The needed isolation to survive is -19 dB
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): The current SNIR is inf dB
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived interference with SF 
+
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Cumulative Interference Energy: 0
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Signal power in W: 2.19723e-14
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Signal energy: 9.05611e-16
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): The needed isolation to survive is -19 dB
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): The current SNIR is inf dB
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived interference with SF 
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Cumulative Interference Energy: 0
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Signal power in W: 2.19723e-14
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Signal energy: 9.05611e-16
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): The needed isolation to survive is -20 dB
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): The current SNIR is inf dB
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived interference with SF 
++4.112102704s 0 LoraInterferenceHelper:IsDestroyedByInterference(): Packet survived all interference
++4.112102704s 0 SimpleEndDeviceLoraPhy:EndReceive(): Packet received correctly
++4.112102704s 0 LoraNetDevice:GetNode(0x55a79b6ccd30)
++4.112102704s 0 ClassAEndDeviceLorawanMac:Receive(0x55a79b56bb60, 0x55a79b51ed70)
++4.112102704s 0 LorawanMacHeader:Deserialize()
++4.112102704s 0 ClassAEndDeviceLorawanMac:Receive(): Mac Header: MessageType=3
+Major=0
+
++4.112102704s 0 LorawanMacHeader:IsUplink()
++4.112102704s 0 ClassAEndDeviceLorawanMac:Receive(): Found a downlink packet.
++4.112102704s 0 LoraFrameHeader:SetAsDownlink()
++4.112102704s 0 LoraFrameHeader:Deserialize()
++4.112102704s 0 LoraFrameHeader:Deserialize(): Deserialized data: 
++4.112102704s 0 LoraFrameHeader:Deserialize(): Address: 0110110|0000000000000011101001000
++4.112102704s 0 LoraFrameHeader:Deserialize(): ADR: 0
++4.112102704s 0 LoraFrameHeader:Deserialize(): ADRAckReq: 0
++4.112102704s 0 LoraFrameHeader:Deserialize(): Ack: 1
++4.112102704s 0 LoraFrameHeader:Deserialize(): fPending: 0
++4.112102704s 0 LoraFrameHeader:Deserialize(): fOptsLen: 0
++4.112102704s 0 LoraFrameHeader:Deserialize(): fCnt: 1
++4.112102704s 0 LoraFrameHeader:Deserialize(): Starting deserialization of MAC commands
++4.112102704s 0 ClassAEndDeviceLorawanMac:Receive(): Frame Header: +4.112102704s 0 LoraFrameHeader:Print()
+Address=0110110|0000000000000011101001000
+ADR=0
+ADRAckReq=0
+ACK=1
+FPending=0
+FOptsLen=0
+FCnt=1
+FPort=0
+
++4.112102704s 0 ClassAEndDeviceLorawanMac:Receive(): The message is for us!
++4.112102704s 0 EndDeviceLorawanMac:ParseCommands(0x55a79b56bb60, +4.112102704s 0 LoraFrameHeader:Print()
+Address=0110110|0000000000000011101001000
+ADR=0
+ADRAckReq=0
+ACK=1
+FPending=0
+FOptsLen=0
+FCnt=1
+FPort=0
+)
++4.112102704s 0 EndDeviceLorawanMac:ParseCommands(): The message is an ACK, not waiting for it anymore.
++4.112102704s 0 EndDeviceLorawanMac:ParseCommands(): Reset retransmission variables to default values and cancel retransmission if already scheduled.
++4.112102704s 0 EndDeviceLorawanMac:ParseCommands(): Received ACK packet after 1 transmissions: stopping retransmission procedure. 
++4.112102704s 0 LoraFrameHeader:GetCommands()
++4.112102704s 0 EndDeviceLoraPhy:SwitchToSleep()

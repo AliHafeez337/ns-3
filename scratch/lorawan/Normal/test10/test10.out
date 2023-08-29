@@ -1,0 +1,635 @@
+[  0%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/network-server.cc.o
+[  0%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/network-status.cc.o
+[  0%] Building CXX object src/lorawan/CMakeFiles/liblorawan-obj.dir/model/network-scheduler.cc.o
+[01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.cc:[m[K In member function ‘[01m[Kvoid ns3::lorawan::NetworkServer::AddGateway(ns3::Ptr<ns3::Node>, ns3::Ptr<ns3::NetDevice>)[m[K’:
+[01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.cc:107:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Kns3::Ptr<T>::operator Tester*() const [with T = ns3::PointToPointNetDevice][m[K’ is deprecated: see operator bool [[01;35m[K-Wdeprecated-declarations[m[K]
+  107 |       if (p2pNetDevice != [01;35m[K0[m[K)
+      |                           [01;35m[K^[m[K
+In file included from [01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute.h:22[m[K,
+                 from [01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/attribute-construction-list.h:22[m[K,
+                 from [01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/object.h:23[m[K,
+                 from [01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/object.h:1[m[K,
+                 from [01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.h:25[m[K,
+                 from [01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/build/include/ns3/network-server.h:1[m[K,
+                 from [01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.cc:22[m[K:
+[01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  781 | [01;36m[KPtr<T>[m[K::operator Tester*() const // NS_DEPRECATED_3_37
+      | [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:23[m[K:
+[01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.cc:117:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::GatewayLorawanMac][m[K’ is deprecated: see operator bool [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   NS_ASSERT (gwMac != [01;35m[K0[m[K);
+      |                       [01;35m[K^[m[K
+[01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/assert.h:69:15:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KNS_ASSERT[m[K’
+   69 |         if (!([01;36m[Kcondition[m[K))                                                                          \
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  781 | [01;36m[KPtr<T>[m[K::operator Tester*() const // NS_DEPRECATED_3_37
+      | [01;36m[K^~~~~~[m[K
+[01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.cc:[m[K In member function ‘[01m[Kvoid ns3::lorawan::NetworkServer::AddNode(ns3::Ptr<ns3::Node>)[m[K’:
+[01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/lorawan/model/network-server.cc:157:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kns3::Ptr<T>::operator Tester*() const [with T = ns3::lorawan::LoraNetDevice][m[K’ is deprecated: see operator bool [[01;35m[K-Wdeprecated-declarations[m[K]
+  157 |       if (loraNetDevice != [01;35m[K0[m[K)
+      |                            [01;35m[K^[m[K
+[01m[K/home/kali/LoRaWAN/ns-3/ns-3-dev/src/core/model/ptr.h:781:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  781 | [01;36m[KPtr<T>[m[K::operator Tester*() const // NS_DEPRECATED_3_37
+      | [01;36m[K^~~~~~[m[K
+[  0%] Linking CXX shared library ../../lib/libns3-dev-lorawan-debug.so
+SimpleLorawanNetworkExample:main(): Creating the channel...
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Setting up helpers...
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Packet to send...: 0x55d461ad84a0
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Creating the end device...
++0.000000000s -1 LoraChannel:Add(0x55d4619f1c40, 0x55d4619e5300)
++0.000000000s -1 EndDeviceLorawanMac:EndDeviceLorawanMac(0x55d461977b60)
++0.000000000s -1 ClassAEndDeviceLorawanMac:ClassAEndDeviceLorawanMac(0x55d461977b60)
++0.000000000s -1 EndDeviceLorawanMac:SetDeviceAddress(0x55d461977b60, 0110110|0000000000000011101001000)
++0.000000000s -1 EndDeviceLorawanMac:SetMType(): Message type is set to 4
++0.000000000s -1 SimpleLorawanNetworkExample:main(): Creating the gateway...
++0.000000000s -1 LoraChannel:Add(0x55d4619f1c40, 0x55d46198bc70)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x55d46196bc60)
++0.000000000s -1 LoraChannel:Add(0x55d4619f1c40, 0x55d46198bac0)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x55d461934ab0)
++0.000000000s -1 LoraChannel:Add(0x55d4619f1c40, 0x55d46198be60)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x55d46199ae50)
++0.000000000s -1 LoraChannel:Add(0x55d4619f1c40, 0x55d461add4c0)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x55d461934790)
++0.000000000s -1 LoraChannel:Add(0x55d4619f1c40, 0x55d461ade5b0)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x55d461adebf0)
++0.000000000s -1 LoraChannel:Add(0x55d4619f1c40, 0x55d461adf870)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x55d461adfe80)
++0.000000000s -1 LoraChannel:Add(0x55d4619f1c40, 0x55d461ae0ab0)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x55d461ae10f0)
++0.000000000s -1 LoraChannel:Add(0x55d4619f1c40, 0x55d461ae1d20)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x55d461ae23f0)
++0.000000000s -1 LoraChannel:Add(0x55d4619f1c40, 0x55d461ae2fd0)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x55d461ae3610)
++0.000000000s -1 LoraChannel:Add(0x55d4619f1c40, 0x55d461ae4280)
++0.000000000s -1 GatewayLorawanMac:GatewayLorawanMac(0x55d461ae48c0)
++0.000000000s -1 EndDeviceLorawanMac:SetDataRate(0x55d461977b60, 5)
++0.000000000s -1 NetworkStatus:NetworkStatus()
++0.000000000s -1 NetworkServer:NetworkServer()
++0.000000000s -1 NetworkServer:AddGateway(0x55d46196e910, 0x55d4619e0a90)
++0.000000000s -1 NetworkServer:AddGateway(): gwIter: 0
++0.000000000s -1 NetworkServer:AddGateway(): AddGateway: GatewayLorawanMac:  0x55d46196bc60
++0.000000000s -1 NetworkStatus:AddGateway(0x55d461ae57b0)
++0.000000000s -1 NetworkStatus:AddGateway(): Added to the list a gateway with address 02-06-00:00:00:00:00:02
++0.000000000s -1 NetworkServer:AddGateway(0x55d46196e910, 0x55d46199c650)
++0.000000000s -1 NetworkServer:AddGateway(): gwIter: 1
++0.000000000s -1 NetworkServer:AddGateway(): AddGateway: GatewayLorawanMac:  0x55d461934ab0
++0.000000000s -1 NetworkStatus:AddGateway(0x55d461ae57b0)
++0.000000000s -1 NetworkStatus:AddGateway(): Added to the list a gateway with address 02-06-00:00:00:00:00:04
++0.000000000s -1 NetworkServer:AddGateway(0x55d46196e910, 0x55d461ad9a70)
++0.000000000s -1 NetworkServer:AddGateway(): gwIter: 2
++0.000000000s -1 NetworkServer:AddGateway(): AddGateway: GatewayLorawanMac:  0x55d46199ae50
++0.000000000s -1 NetworkStatus:AddGateway(0x55d461ae57b0)
++0.000000000s -1 NetworkStatus:AddGateway(): Added to the list a gateway with address 02-06-00:00:00:00:00:06
++0.000000000s -1 NetworkServer:AddGateway(0x55d46196e910, 0x55d461ad9b70)
++0.000000000s -1 NetworkServer:AddGateway(): gwIter: 3
++0.000000000s -1 NetworkServer:AddGateway(): AddGateway: GatewayLorawanMac:  0x55d461934790
++0.000000000s -1 NetworkStatus:AddGateway(0x55d461ae57b0)
++0.000000000s -1 NetworkStatus:AddGateway(): Added to the list a gateway with address 02-06-00:00:00:00:00:08
++0.000000000s -1 NetworkServer:AddGateway(0x55d46196e910, 0x55d461ad9cc0)
++0.000000000s -1 NetworkServer:AddGateway(): gwIter: 4
++0.000000000s -1 NetworkServer:AddGateway(): AddGateway: GatewayLorawanMac:  0x55d461adebf0
++0.000000000s -1 NetworkStatus:AddGateway(0x55d461ae57b0)
++0.000000000s -1 NetworkStatus:AddGateway(): Added to the list a gateway with address 02-06-00:00:00:00:00:0a
++0.000000000s -1 NetworkServer:AddGateway(0x55d46196e910, 0x55d461ad9dc0)
++0.000000000s -1 NetworkServer:AddGateway(): gwIter: 5
++0.000000000s -1 NetworkServer:AddGateway(): AddGateway: GatewayLorawanMac:  0x55d461adfe80
++0.000000000s -1 NetworkStatus:AddGateway(0x55d461ae57b0)
++0.000000000s -1 NetworkStatus:AddGateway(): Added to the list a gateway with address 02-06-00:00:00:00:00:0c
++0.000000000s -1 NetworkServer:AddGateway(0x55d46196e910, 0x55d461ad9ee0)
++0.000000000s -1 NetworkServer:AddGateway(): gwIter: 6
++0.000000000s -1 NetworkServer:AddGateway(): AddGateway: GatewayLorawanMac:  0x55d461ae10f0
++0.000000000s -1 NetworkStatus:AddGateway(0x55d461ae57b0)
++0.000000000s -1 NetworkStatus:AddGateway(): Added to the list a gateway with address 02-06-00:00:00:00:00:0e
++0.000000000s -1 NetworkServer:AddGateway(0x55d46196e910, 0x55d461ad9fe0)
++0.000000000s -1 NetworkServer:AddGateway(): gwIter: 7
++0.000000000s -1 NetworkServer:AddGateway(): AddGateway: GatewayLorawanMac:  0x55d461ae23f0
++0.000000000s -1 NetworkStatus:AddGateway(0x55d461ae57b0)
++0.000000000s -1 NetworkStatus:AddGateway(): Added to the list a gateway with address 02-06-00:00:00:00:00:10
++0.000000000s -1 NetworkServer:AddGateway(0x55d46196e910, 0x55d461ada170)
++0.000000000s -1 NetworkServer:AddGateway(): gwIter: 8
++0.000000000s -1 NetworkServer:AddGateway(): AddGateway: GatewayLorawanMac:  0x55d461ae3610
++0.000000000s -1 NetworkStatus:AddGateway(0x55d461ae57b0)
++0.000000000s -1 NetworkStatus:AddGateway(): Added to the list a gateway with address 02-06-00:00:00:00:00:12
++0.000000000s -1 NetworkServer:AddGateway(0x55d46196e910, 0x55d461ada320)
++0.000000000s -1 NetworkServer:AddGateway(): gwIter: 9
++0.000000000s -1 NetworkServer:AddGateway(): AddGateway: GatewayLorawanMac:  0x55d461ae48c0
++0.000000000s -1 NetworkStatus:AddGateway(0x55d461ae57b0)
++0.000000000s -1 NetworkStatus:AddGateway(): Added to the list a gateway with address 02-06-00:00:00:00:00:14
++0.000000000s -1 NetworkServer:AddNodes()
++0.000000000s -1 NetworkServer:AddNode(0x55d46196e910, 0x55d46199b960)
++0.000000000s -1 NetworkStatus:AddNode(0x55d461ae57b0, 0x55d461977b60)
++0.000000000s -1 EndDeviceLorawanMac:GetDeviceAddress(0x55d461977b60)
++0.000000000s -1 EndDeviceStatus:EndDeviceStatus(0110110|0000000000000011101001000)
++0.000000000s -1 NetworkStatus:AddNode(): Added to the list a device with address 0110110|0000000000000011101001000
++0.000000000s -1 NetworkServer:AddComponent(0x55d46196e910, 0x55d461af0bd0)
++0.000000000s -1 NetworkServer:AddComponent(0x55d46196e910, 0x55d461af2c40)
++0.000000000s 11 NetworkServer:StartApplication()
+-------------------------------------------------------------
+Function deviceSend called with arguments: device: 0, endDevices: <>, pkt: 0x55d461ad84a0
++3.000000000s -1 SimpleLorawanNetworkExample:deviceSend(): Device: 0 - LoraNetDevice:0x55d461ad8d40
++3.000000000s -1 EndDeviceLorawanMac:Send(0x55d461977b60, 0x55d461ad84a0)
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay()
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.1 is = 0.
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.3 is = 0.
++3.000000000s -1 EndDeviceLorawanMac:GetNextTransmissionDelay(): Waiting time before the next transmission in channel with frequecy 868.5 is = 0.
++3.000000000s -1 ClassAEndDeviceLorawanMac:GetNextClassTransmissionDelay()
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx()
++3.000000000s -1 EndDeviceLorawanMac:Shuffle()
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Frequency of the current channel: 868.3
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Waiting time for current channel = 0
++3.000000000s -1 EndDeviceLorawanMac:DoSend(0x55d461977b60)
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Received a new packet from application. Resetting retransmission parameters.
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): APP packet: 0x55d461ad84a0.
++3.000000000s -1 EndDeviceLorawanMac:ApplyNecessaryOptions()
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Added frame header of size 8 bytes.
++3.000000000s -1 EndDeviceLorawanMac:ApplyNecessaryOptions()
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Message type is 4
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): It is a confirmed packet. Setting retransmission parameters and decreasing the number of transmissions left.
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Added MAC header of size 1 bytes.
++3.000000000s -1 EndDeviceLorawanMac:DoSend(): Copied packet: 0x55d461ad8510
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): PacketToSend: 0x55d461ad8510
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx()
++3.000000000s -1 EndDeviceLorawanMac:Shuffle()
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Frequency of the current channel: 868.1
++3.000000000s -1 EndDeviceLorawanMac:GetChannelForTx(): Waiting time for current channel = 0
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): PacketToSend: 0x55d461ad8510
++3.000000000s -1 LoraChannel:Send(0x55d4619f1c40, 0x55d4619e5300, 0x55d461ad8510, 14, SF: 7, headerDisabled: 0, codingRate: 1, bandwidthHz: 125000, nPreamble: 8, crcEnabled: 1, lowDataRateOptimizationEnabled: 0), +6.6816e+07ns, 868.1)
++3.000000000s -1 LoraChannel:Send(): Starting cycle over all 11 PHYs
++3.000000000s -1 LoraChannel:Send(): Sender mobility: 1000:0:0
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 790:0:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-82.6841dbm, distance=232.594m, delay=+776ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 1
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 318:306:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-101.893dbm, distance=754.162m, delay=+2516ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 2
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 778:670:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-100.973dbm, distance=712.87m, delay=+2378ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 3
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 623:194:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-92.9305dbm, distance=435.62m, delay=+1453ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 4
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 39:172:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-106.193dbm, distance=981.379m, delay=+3274ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 5
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 144:518:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-106.59dbm, distance=1005.51m, delay=+3354ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 6
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 410:185:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-98.8605dbm, distance=626.359m, delay=+2089ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 7
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 501:289:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-97.7521dbm, distance=585.254m, delay=+1952ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 8
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 190:782:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-108.5dbm, distance=1130.32m, delay=+3770ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 9
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 LoraChannel:Send(): Receiver mobility: 402:223:100
++3.000000000s -1 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-99.3651dbm, distance=646.013m, delay=+2155ns
++3.000000000s -1 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++3.000000000s -1 LoraChannel:Send(): dstNode = 10
++3.000000000s -1 LoraChannel:Send(): Scheduling reception of the packet
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): m_dataRate: 5, m_rx1DrOffset: 0, replyDataRate: 5.
++3.000000776s 1 LoraChannel:Receive(0x55d4619f1c40, 1, 0x55d461ad8510, (rxPowerDbm: -82.6841, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.000001453s 4 LoraChannel:Receive(0x55d4619f1c40, 4, 0x55d461ad8510, (rxPowerDbm: -92.9305, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.000001952s 8 LoraChannel:Receive(0x55d4619f1c40, 8, 0x55d461ad8510, (rxPowerDbm: -97.7521, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.000002089s 7 LoraChannel:Receive(0x55d4619f1c40, 7, 0x55d461ad8510, (rxPowerDbm: -98.8605, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.000002155s 10 LoraChannel:Receive(0x55d4619f1c40, 10, 0x55d461ad8510, (rxPowerDbm: -99.3651, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.000002378s 3 LoraChannel:Receive(0x55d4619f1c40, 3, 0x55d461ad8510, (rxPowerDbm: -100.973, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.000002516s 2 LoraChannel:Receive(0x55d4619f1c40, 2, 0x55d461ad8510, (rxPowerDbm: -101.893, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.000003274s 5 LoraChannel:Receive(0x55d4619f1c40, 5, 0x55d461ad8510, (rxPowerDbm: -106.193, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.000003354s 6 LoraChannel:Receive(0x55d4619f1c40, 6, 0x55d461ad8510, (rxPowerDbm: -106.59, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.000003770s 9 LoraChannel:Receive(0x55d4619f1c40, 9, 0x55d461ad8510, (rxPowerDbm: -108.5, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
++3.066816010s -1 ClassAEndDeviceLorawanMac:TxFinished()
++3.066816776s 1 GatewayLorawanMac:Receive(0x55d46196bc60, 0x55d461ad8510)
++3.066816776s 1 GatewayLorawanMac:Receive(): Received packet: 0x55d461ad8510
++3.066817453s 4 GatewayLorawanMac:Receive(0x55d461934790, 0x55d461ad8510)
++3.066817453s 4 GatewayLorawanMac:Receive(): Received packet: 0x55d461ad8510
++3.066817952s 8 GatewayLorawanMac:Receive(0x55d461ae23f0, 0x55d461ad8510)
++3.066817952s 8 GatewayLorawanMac:Receive(): Received packet: 0x55d461ad8510
++3.066818089s 7 GatewayLorawanMac:Receive(0x55d461ae10f0, 0x55d461ad8510)
++3.066818089s 7 GatewayLorawanMac:Receive(): Received packet: 0x55d461ad8510
++3.066818155s 10 GatewayLorawanMac:Receive(0x55d461ae48c0, 0x55d461ad8510)
++3.066818155s 10 GatewayLorawanMac:Receive(): Received packet: 0x55d461ad8510
++3.066818378s 3 GatewayLorawanMac:Receive(0x55d46199ae50, 0x55d461ad8510)
++3.066818378s 3 GatewayLorawanMac:Receive(): Received packet: 0x55d461ad8510
++3.066818516s 2 GatewayLorawanMac:Receive(0x55d461934ab0, 0x55d461ad8510)
++3.066818516s 2 GatewayLorawanMac:Receive(): Received packet: 0x55d461ad8510
++3.066819274s 5 GatewayLorawanMac:Receive(0x55d461adebf0, 0x55d461ad8510)
++3.066819274s 5 GatewayLorawanMac:Receive(): Received packet: 0x55d461ad8510
++3.066819354s 6 GatewayLorawanMac:Receive(0x55d461adfe80, 0x55d461ad8510)
++3.066819354s 6 GatewayLorawanMac:Receive(): Received packet: 0x55d461ad8510
++3.066819770s 9 GatewayLorawanMac:Receive(0x55d461ae3610, 0x55d461ad8510)
++3.066819770s 9 GatewayLorawanMac:Receive(): Received packet: 0x55d461ad8510
++3.068863176s 11 NetworkServer:Receive(0x55d46196e910, 0x55d461ad9910, 2048, 02-06-00:00:00:00:00:02)
++3.068863176s 11 NetworkScheduler:OnReceivedPacket2(0x55d461ad9910)
++3.068863176s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461ad9910)
++3.068863176s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461ad9910)
++3.068863176s 11 NetworkStatus:OnReceivedPacket(0x55d461ae57b0, 0x55d461ad9910, 02-06-00:00:00:00:00:02)
++3.068863176s 11 NetworkStatus:OnReceivedPacket(): Node address: 0110110|0000000000000011101001000
++3.068863176s 11 EndDeviceStatus:InsertReceivedPacket()
++3.068863176s 11 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068863176s 11 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068863176s 11 EndDeviceStatus:InsertReceivedPacket(): Packet was received for the first time
++3.068863176s 11 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x55d461ad9910 1
+  02-06-00:00:00:00:00:02 -82.6841
+
++3.068863176s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461ad9910)
++3.068863176s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461ad9910)
++3.068863853s 11 NetworkServer:Receive(0x55d46196e910, 0x55d461ae5520, 2048, 02-06-00:00:00:00:00:08)
++3.068863853s 11 NetworkScheduler:OnReceivedPacket2(0x55d461ae5520)
++3.068863853s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461ae5520)
++3.068863853s 11 NetworkStatus:OnReceivedPacket(0x55d461ae57b0, 0x55d461ae5520, 02-06-00:00:00:00:00:08)
++3.068863853s 11 NetworkStatus:OnReceivedPacket(): Node address: 0110110|0000000000000011101001000
++3.068863853s 11 EndDeviceStatus:InsertReceivedPacket()
++3.068863853s 11 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068863853s 11 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068863853s 11 EndDeviceStatus:InsertReceivedPacket(): Received packet's frame counter: 1
+Current packet's frame counter: 1
++3.068863853s 11 EndDeviceStatus:InsertReceivedPacket(): Packet was already received by another gateway
++3.068863853s 11 EndDeviceStatus:InsertReceivedPacket(): Size of gateway list: 2
++3.068863853s 11 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x55d461ad9910 2
+  02-06-00:00:00:00:00:02 -82.6841
+  02-06-00:00:00:00:00:08 -92.9305
+
++3.068863853s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461ae5520)
++3.068863853s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461ae5520)
++3.068864352s 11 NetworkServer:Receive(0x55d46196e910, 0x55d461924ef0, 2048, 02-06-00:00:00:00:00:10)
++3.068864352s 11 NetworkScheduler:OnReceivedPacket2(0x55d461924ef0)
++3.068864352s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461924ef0)
++3.068864352s 11 NetworkStatus:OnReceivedPacket(0x55d461ae57b0, 0x55d461924ef0, 02-06-00:00:00:00:00:10)
++3.068864352s 11 NetworkStatus:OnReceivedPacket(): Node address: 0110110|0000000000000011101001000
++3.068864352s 11 EndDeviceStatus:InsertReceivedPacket()
++3.068864352s 11 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068864352s 11 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068864352s 11 EndDeviceStatus:InsertReceivedPacket(): Received packet's frame counter: 1
+Current packet's frame counter: 1
++3.068864352s 11 EndDeviceStatus:InsertReceivedPacket(): Packet was already received by another gateway
++3.068864352s 11 EndDeviceStatus:InsertReceivedPacket(): Size of gateway list: 3
++3.068864352s 11 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x55d461ad9910 3
+  02-06-00:00:00:00:00:02 -82.6841
+  02-06-00:00:00:00:00:08 -92.9305
+  02-06-00:00:00:00:00:10 -97.7521
+
++3.068864352s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461924ef0)
++3.068864352s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461924ef0)
++3.068864489s 11 NetworkServer:Receive(0x55d46196e910, 0x55d46193c380, 2048, 02-06-00:00:00:00:00:0e)
++3.068864489s 11 NetworkScheduler:OnReceivedPacket2(0x55d46193c380)
++3.068864489s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d46193c380)
++3.068864489s 11 NetworkStatus:OnReceivedPacket(0x55d461ae57b0, 0x55d46193c380, 02-06-00:00:00:00:00:0e)
++3.068864489s 11 NetworkStatus:OnReceivedPacket(): Node address: 0110110|0000000000000011101001000
++3.068864489s 11 EndDeviceStatus:InsertReceivedPacket()
++3.068864489s 11 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068864489s 11 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068864489s 11 EndDeviceStatus:InsertReceivedPacket(): Received packet's frame counter: 1
+Current packet's frame counter: 1
++3.068864489s 11 EndDeviceStatus:InsertReceivedPacket(): Packet was already received by another gateway
++3.068864489s 11 EndDeviceStatus:InsertReceivedPacket(): Size of gateway list: 4
++3.068864489s 11 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x55d461ad9910 4
+  02-06-00:00:00:00:00:02 -82.6841
+  02-06-00:00:00:00:00:08 -92.9305
+  02-06-00:00:00:00:00:0e -98.8605
+  02-06-00:00:00:00:00:10 -97.7521
+
++3.068864489s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d46193c380)
++3.068864489s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d46193c380)
++3.068864555s 11 NetworkServer:Receive(0x55d46196e910, 0x55d461942be0, 2048, 02-06-00:00:00:00:00:14)
++3.068864555s 11 NetworkScheduler:OnReceivedPacket2(0x55d461942be0)
++3.068864555s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461942be0)
++3.068864555s 11 NetworkStatus:OnReceivedPacket(0x55d461ae57b0, 0x55d461942be0, 02-06-00:00:00:00:00:14)
++3.068864555s 11 NetworkStatus:OnReceivedPacket(): Node address: 0110110|0000000000000011101001000
++3.068864555s 11 EndDeviceStatus:InsertReceivedPacket()
++3.068864555s 11 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068864555s 11 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068864555s 11 EndDeviceStatus:InsertReceivedPacket(): Received packet's frame counter: 1
+Current packet's frame counter: 1
++3.068864555s 11 EndDeviceStatus:InsertReceivedPacket(): Packet was already received by another gateway
++3.068864555s 11 EndDeviceStatus:InsertReceivedPacket(): Size of gateway list: 5
++3.068864555s 11 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x55d461ad9910 5
+  02-06-00:00:00:00:00:02 -82.6841
+  02-06-00:00:00:00:00:08 -92.9305
+  02-06-00:00:00:00:00:0e -98.8605
+  02-06-00:00:00:00:00:10 -97.7521
+  02-06-00:00:00:00:00:14 -99.3651
+
++3.068864555s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461942be0)
++3.068864555s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461942be0)
++3.068864778s 11 NetworkServer:Receive(0x55d46196e910, 0x55d461945720, 2048, 02-06-00:00:00:00:00:06)
++3.068864778s 11 NetworkScheduler:OnReceivedPacket2(0x55d461945720)
++3.068864778s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461945720)
++3.068864778s 11 NetworkStatus:OnReceivedPacket(0x55d461ae57b0, 0x55d461945720, 02-06-00:00:00:00:00:06)
++3.068864778s 11 NetworkStatus:OnReceivedPacket(): Node address: 0110110|0000000000000011101001000
++3.068864778s 11 EndDeviceStatus:InsertReceivedPacket()
++3.068864778s 11 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068864778s 11 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068864778s 11 EndDeviceStatus:InsertReceivedPacket(): Received packet's frame counter: 1
+Current packet's frame counter: 1
++3.068864778s 11 EndDeviceStatus:InsertReceivedPacket(): Packet was already received by another gateway
++3.068864778s 11 EndDeviceStatus:InsertReceivedPacket(): Size of gateway list: 6
++3.068864778s 11 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x55d461ad9910 6
+  02-06-00:00:00:00:00:02 -82.6841
+  02-06-00:00:00:00:00:06 -100.973
+  02-06-00:00:00:00:00:08 -92.9305
+  02-06-00:00:00:00:00:0e -98.8605
+  02-06-00:00:00:00:00:10 -97.7521
+  02-06-00:00:00:00:00:14 -99.3651
+
++3.068864778s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461945720)
++3.068864778s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461945720)
++3.068864916s 11 NetworkServer:Receive(0x55d46196e910, 0x55d461948cc0, 2048, 02-06-00:00:00:00:00:04)
++3.068864916s 11 NetworkScheduler:OnReceivedPacket2(0x55d461948cc0)
++3.068864916s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461948cc0)
++3.068864916s 11 NetworkStatus:OnReceivedPacket(0x55d461ae57b0, 0x55d461948cc0, 02-06-00:00:00:00:00:04)
++3.068864916s 11 NetworkStatus:OnReceivedPacket(): Node address: 0110110|0000000000000011101001000
++3.068864916s 11 EndDeviceStatus:InsertReceivedPacket()
++3.068864916s 11 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068864916s 11 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068864916s 11 EndDeviceStatus:InsertReceivedPacket(): Received packet's frame counter: 1
+Current packet's frame counter: 1
++3.068864916s 11 EndDeviceStatus:InsertReceivedPacket(): Packet was already received by another gateway
++3.068864916s 11 EndDeviceStatus:InsertReceivedPacket(): Size of gateway list: 7
++3.068864916s 11 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x55d461ad9910 7
+  02-06-00:00:00:00:00:02 -82.6841
+  02-06-00:00:00:00:00:04 -101.893
+  02-06-00:00:00:00:00:06 -100.973
+  02-06-00:00:00:00:00:08 -92.9305
+  02-06-00:00:00:00:00:0e -98.8605
+  02-06-00:00:00:00:00:10 -97.7521
+  02-06-00:00:00:00:00:14 -99.3651
+
++3.068864916s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461948cc0)
++3.068864916s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461948cc0)
++3.068865674s 11 NetworkServer:Receive(0x55d46196e910, 0x55d461a566d0, 2048, 02-06-00:00:00:00:00:0a)
++3.068865674s 11 NetworkScheduler:OnReceivedPacket2(0x55d461a566d0)
++3.068865674s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461a566d0)
++3.068865674s 11 NetworkStatus:OnReceivedPacket(0x55d461ae57b0, 0x55d461a566d0, 02-06-00:00:00:00:00:0a)
++3.068865674s 11 NetworkStatus:OnReceivedPacket(): Node address: 0110110|0000000000000011101001000
++3.068865674s 11 EndDeviceStatus:InsertReceivedPacket()
++3.068865674s 11 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068865674s 11 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068865674s 11 EndDeviceStatus:InsertReceivedPacket(): Received packet's frame counter: 1
+Current packet's frame counter: 1
++3.068865674s 11 EndDeviceStatus:InsertReceivedPacket(): Packet was already received by another gateway
++3.068865674s 11 EndDeviceStatus:InsertReceivedPacket(): Size of gateway list: 8
++3.068865674s 11 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x55d461ad9910 8
+  02-06-00:00:00:00:00:02 -82.6841
+  02-06-00:00:00:00:00:04 -101.893
+  02-06-00:00:00:00:00:06 -100.973
+  02-06-00:00:00:00:00:08 -92.9305
+  02-06-00:00:00:00:00:0a -106.193
+  02-06-00:00:00:00:00:0e -98.8605
+  02-06-00:00:00:00:00:10 -97.7521
+  02-06-00:00:00:00:00:14 -99.3651
+
++3.068865674s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461a566d0)
++3.068865674s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d461a566d0)
++3.068865754s 11 NetworkServer:Receive(0x55d46196e910, 0x55d4619688d0, 2048, 02-06-00:00:00:00:00:0c)
++3.068865754s 11 NetworkScheduler:OnReceivedPacket2(0x55d4619688d0)
++3.068865754s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d4619688d0)
++3.068865754s 11 NetworkStatus:OnReceivedPacket(0x55d461ae57b0, 0x55d4619688d0, 02-06-00:00:00:00:00:0c)
++3.068865754s 11 NetworkStatus:OnReceivedPacket(): Node address: 0110110|0000000000000011101001000
++3.068865754s 11 EndDeviceStatus:InsertReceivedPacket()
++3.068865754s 11 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068865754s 11 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068865754s 11 EndDeviceStatus:InsertReceivedPacket(): Received packet's frame counter: 1
+Current packet's frame counter: 1
++3.068865754s 11 EndDeviceStatus:InsertReceivedPacket(): Packet was already received by another gateway
++3.068865754s 11 EndDeviceStatus:InsertReceivedPacket(): Size of gateway list: 9
++3.068865754s 11 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x55d461ad9910 9
+  02-06-00:00:00:00:00:02 -82.6841
+  02-06-00:00:00:00:00:04 -101.893
+  02-06-00:00:00:00:00:06 -100.973
+  02-06-00:00:00:00:00:08 -92.9305
+  02-06-00:00:00:00:00:0a -106.193
+  02-06-00:00:00:00:00:0c -106.59
+  02-06-00:00:00:00:00:0e -98.8605
+  02-06-00:00:00:00:00:10 -97.7521
+  02-06-00:00:00:00:00:14 -99.3651
+
++3.068865754s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d4619688d0)
++3.068865754s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d4619688d0)
++3.068866170s 11 NetworkServer:Receive(0x55d46196e910, 0x55d4619745c0, 2048, 02-06-00:00:00:00:00:12)
++3.068866170s 11 NetworkScheduler:OnReceivedPacket2(0x55d4619745c0)
++3.068866170s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d4619745c0)
++3.068866170s 11 NetworkStatus:OnReceivedPacket(0x55d461ae57b0, 0x55d4619745c0, 02-06-00:00:00:00:00:12)
++3.068866170s 11 NetworkStatus:OnReceivedPacket(): Node address: 0110110|0000000000000011101001000
++3.068866170s 11 EndDeviceStatus:InsertReceivedPacket()
++3.068866170s 11 EndDeviceStatus:SetFirstReceiveWindowSpreadingFactor()
++3.068866170s 11 EndDeviceStatus:SetFirstReceiveWindowFrequency()
++3.068866170s 11 EndDeviceStatus:InsertReceivedPacket(): Received packet's frame counter: 1
+Current packet's frame counter: 1
++3.068866170s 11 EndDeviceStatus:InsertReceivedPacket(): Packet was already received by another gateway
++3.068866170s 11 EndDeviceStatus:InsertReceivedPacket(): Size of gateway list: 10
++3.068866170s 11 EndDeviceStatus:InsertReceivedPacket(): Total packets received: 1
+0x55d461ad9910 10
+  02-06-00:00:00:00:00:02 -82.6841
+  02-06-00:00:00:00:00:04 -101.893
+  02-06-00:00:00:00:00:06 -100.973
+  02-06-00:00:00:00:00:08 -92.9305
+  02-06-00:00:00:00:00:0a -106.193
+  02-06-00:00:00:00:00:0c -106.59
+  02-06-00:00:00:00:00:0e -98.8605
+  02-06-00:00:00:00:00:10 -97.7521
+  02-06-00:00:00:00:00:12 -108.5
+  02-06-00:00:00:00:00:14 -99.3651
+
++3.068866170s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d4619745c0)
++3.068866170s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0x55d4619745c0)
++4.066816010s -1 ClassAEndDeviceLorawanMac:OpenFirstReceiveWindow()
++4.068863176s 11 NetworkScheduler:OnReceiveWindowOpportunity2(0110110|0000000000000011101001000)
++4.068863176s 11 NetworkScheduler:OnReceiveWindowOpportunity2(): Opening receive window number 1 for device 0110110|0000000000000011101001000
++4.068863176s 11 NetworkStatus:GetBestGatewayForDevice2(0110110|0000000000000011101001000)
++4.068863176s 11 EndDeviceStatus:GetFirstReceiveWindowFrequency()
++4.068863176s 11 EndDeviceStatus:GetPowerGatewayMap(): GW address from list: 02-06-00:00:00:00:00:02
++4.068863176s 11 EndDeviceStatus:GetPowerGatewayMap(): GW address from list: 02-06-00:00:00:00:00:04
++4.068863176s 11 EndDeviceStatus:GetPowerGatewayMap(): GW address from list: 02-06-00:00:00:00:00:06
++4.068863176s 11 EndDeviceStatus:GetPowerGatewayMap(): GW address from list: 02-06-00:00:00:00:00:08
++4.068863176s 11 EndDeviceStatus:GetPowerGatewayMap(): GW address from list: 02-06-00:00:00:00:00:0a
++4.068863176s 11 EndDeviceStatus:GetPowerGatewayMap(): GW address from list: 02-06-00:00:00:00:00:0c
++4.068863176s 11 EndDeviceStatus:GetPowerGatewayMap(): GW address from list: 02-06-00:00:00:00:00:0e
++4.068863176s 11 EndDeviceStatus:GetPowerGatewayMap(): GW address from list: 02-06-00:00:00:00:00:10
++4.068863176s 11 EndDeviceStatus:GetPowerGatewayMap(): GW address from list: 02-06-00:00:00:00:00:12
++4.068863176s 11 EndDeviceStatus:GetPowerGatewayMap(): GW address from list: 02-06-00:00:00:00:00:14
++4.068863176s 11 NetworkStatus:GetBestGatewayForDevice2(): fINDING best gateway: 
++4.068863176s 11 NetworkStatus:GetBestGatewayForDevice2(): iter : 02-06-00:00:00:00:00:02
++4.068863176s 11 GatewayLorawanMac:GetWaitingTime()
++4.068863176s 11 NetworkStatus:GetBestGatewayForDevice2(): is available 1
++4.068863176s 11 NetworkStatus:GetBestGatewayForDevice2(): iter : 02-06-00:00:00:00:00:08
++4.068863176s 11 GatewayLorawanMac:GetWaitingTime()
++4.068863176s 11 NetworkStatus:GetBestGatewayForDevice2(): is available 1
++4.068863176s 11 NetworkStatus:GetBestGatewayForDevice2(): iter : 02-06-00:00:00:00:00:10
++4.068863176s 11 GatewayLorawanMac:GetWaitingTime()
++4.068863176s 11 NetworkStatus:GetBestGatewayForDevice2(): is available 1
+--i--: 02-06-00:00:00:00:00:02
+--i--: 02-06-00:00:00:00:00:08
+--i--: 02-06-00:00:00:00:00:10
+OnReceiveWindowOpportunity2: Selected random: 1 and Best GW address: 02-06-00:00:00:00:00:08
+--i--: 23
++4.068863176s 11 NetworkScheduler:OnReceiveWindowOpportunity2(): Found available gateway with address: 02-06-00:00:00:00:00:08
++4.068863176s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0110110|0000000000000011101001000)
++4.068863176s 11 EndDeviceStatus:GetLastPacketReceivedFromDevice()
++4.068863176s 11 EndDeviceStatus:NeedsReply()
++4.068863176s 11 NetworkScheduler:OnReceiveWindowOpportunity2(): A reply is needed
++4.068863176s 11 EndDeviceStatus:GetCompleteReplyPacket()
++4.068863176s 11 EndDeviceStatus:GetCompleteReplyPacket(): Crafting reply packet using an empty payload
++4.068863176s 11 EndDeviceStatus:GetLastPacketReceivedFromDevice()
++4.068863176s 11 EndDeviceStatus:GetCompleteReplyPacket(): Added MAC headerMessageType=3
+Major=0
+
++4.068863176s 11 EndDeviceStatus:GetCompleteReplyPacket(): Added frame headerAddress=0110110|0000000000000011101001000
+ADR=0
+ADRAckReq=0
+ACK=1
+FPending=0
+FOptsLen=0
+FCnt=1
+FPort=0
+
++4.068863176s 11 EndDeviceStatus:GetFirstReceiveWindowFrequency()
++4.068863176s 11 NetworkStatus:SendThroughGateway2(0x55d461948b00, 02-06-00:00:00:00:00:08)
++4.068863176s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0110110|0000000000000011101001000)
++4.068863176s 11 NetworkStatus:GetEndDeviceStatus(0x55d461ae57b0, 0110110|0000000000000011101001000)
++4.068863176s 11 EndDeviceStatus:InitializeReply()
++4.070880776s 4 GatewayLorawanMac:Send(0x55d461934790, 0x55d461a239b0)
+GatewayLorawanMac::Send::MType: 2
++4.070880776s 4 GatewayLorawanMac:Send(): DR: 5
++4.070880776s 4 GatewayLorawanMac:Send(): SF: 7
++4.070880776s 4 GatewayLorawanMac:Send(): BW: 125000
++4.070880776s 4 GatewayLorawanMac:Send(): Freq: 868.1 MHz
++4.070880776s 4 GatewayLorawanMac:Send(): Duration: 0.041216
++4.070880776s 4 LoraChannel:Send(0x55d4619f1c40, 0x55d461add4c0, 0x55d461a239b0, 14, SF: 7, headerDisabled: 0, codingRate: 1, bandwidthHz: 125000, nPreamble: 8, crcEnabled: 1, lowDataRateOptimizationEnabled: 0), +4.1216e+07ns, 868.1)
++4.070880776s 4 LoraChannel:Send(): Starting cycle over all 11 PHYs
++4.070880776s 4 LoraChannel:Send(): Sender mobility: 623:194:100
++4.070880776s 4 LoraChannel:Send(): Receiver mobility: 1000:0:0
++4.070880776s 4 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-92.9305dbm, distance=435.62m, delay=+1453ns
++4.070880776s 4 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070880776s 4 LoraChannel:Send(): dstNode = 0
++4.070880776s 4 LoraChannel:Send(): Scheduling reception of the packet
++4.070880776s 4 LoraChannel:Send(): Receiver mobility: 790:0:100
++4.070880776s 4 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-84.2485dbm, distance=255.979m, delay=+854ns
++4.070880776s 4 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070880776s 4 LoraChannel:Send(): dstNode = 1
++4.070880776s 4 LoraChannel:Send(): Scheduling reception of the packet
++4.070880776s 4 LoraChannel:Send(): Receiver mobility: 318:306:100
++4.070880776s 4 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-88.1425dbm, distance=324.914m, delay=+1084ns
++4.070880776s 4 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070880776s 4 LoraChannel:Send(): dstNode = 2
++4.070880776s 4 LoraChannel:Send(): Scheduling reception of the packet
++4.070880776s 4 LoraChannel:Send(): Receiver mobility: 778:670:100
++4.070880776s 4 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-95.2009dbm, distance=500.601m, delay=+1670ns
++4.070880776s 4 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070880776s 4 LoraChannel:Send(): dstNode = 3
++4.070880776s 4 LoraChannel:Send(): Scheduling reception of the packet
++4.070880776s 4 LoraChannel:Send(): Receiver mobility: 39:172:100
++4.070880776s 4 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-97.7287dbm, distance=584.414m, delay=+1949ns
++4.070880776s 4 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070880776s 4 LoraChannel:Send(): dstNode = 5
++4.070880776s 4 LoraChannel:Send(): Scheduling reception of the packet
++4.070880776s 4 LoraChannel:Send(): Receiver mobility: 144:518:100
++4.070880776s 4 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-97.5566dbm, distance=578.288m, delay=+1929ns
++4.070880776s 4 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070880776s 4 LoraChannel:Send(): dstNode = 6
++4.070880776s 4 LoraChannel:Send(): Scheduling reception of the packet
++4.070880776s 4 LoraChannel:Send(): Receiver mobility: 410:185:100
++4.070880776s 4 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-81.2616dbm, distance=213.19m, delay=+711ns
++4.070880776s 4 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070880776s 4 LoraChannel:Send(): dstNode = 7
++4.070880776s 4 LoraChannel:Send(): Scheduling reception of the packet
++4.070880776s 4 LoraChannel:Send(): Receiver mobility: 501:289:100
++4.070880776s 4 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-76.017dbm, distance=154.625m, delay=+516ns
++4.070880776s 4 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070880776s 4 LoraChannel:Send(): dstNode = 8
++4.070880776s 4 LoraChannel:Send(): Scheduling reception of the packet
++4.070880776s 4 LoraChannel:Send(): Receiver mobility: 190:782:100
++4.070880776s 4 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-101.366dbm, distance=730.228m, delay=+2436ns
++4.070880776s 4 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070880776s 4 LoraChannel:Send(): dstNode = 9
++4.070880776s 4 LoraChannel:Send(): Scheduling reception of the packet
++4.070880776s 4 LoraChannel:Send(): Receiver mobility: 402:223:100
++4.070880776s 4 LoraChannel:Send(): Propagation: txPower=14dbm, rxPower=-81.9885dbm, distance=222.895m, delay=+743ns
++4.070880776s 4 LoraChannel:Send(): Getting node index from NetDevice, since it exists
++4.070880776s 4 LoraChannel:Send(): dstNode = 10
++4.070880776s 4 LoraChannel:Send(): Scheduling reception of the packet
++4.070881292s 8 LoraChannel:Receive(0x55d4619f1c40, 8, 0x55d461a239b0, (rxPowerDbm: -76.017, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.070881487s 7 LoraChannel:Receive(0x55d4619f1c40, 7, 0x55d461a239b0, (rxPowerDbm: -81.2616, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.070881519s 10 LoraChannel:Receive(0x55d4619f1c40, 10, 0x55d461a239b0, (rxPowerDbm: -81.9885, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.070881630s 1 LoraChannel:Receive(0x55d4619f1c40, 1, 0x55d461a239b0, (rxPowerDbm: -84.2485, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.070881860s 2 LoraChannel:Receive(0x55d4619f1c40, 2, 0x55d461a239b0, (rxPowerDbm: -88.1425, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.070882229s 0 LoraChannel:Receive(0x55d4619f1c40, 0, 0x55d461a239b0, (rxPowerDbm: -92.9305, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.070882446s 3 LoraChannel:Receive(0x55d4619f1c40, 3, 0x55d461a239b0, (rxPowerDbm: -95.2009, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.070882705s 6 LoraChannel:Receive(0x55d4619f1c40, 6, 0x55d461a239b0, (rxPowerDbm: -97.5566, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.070882725s 5 LoraChannel:Receive(0x55d4619f1c40, 5, 0x55d461a239b0, (rxPowerDbm: -97.7287, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.070883212s 9 LoraChannel:Receive(0x55d4619f1c40, 9, 0x55d461a239b0, (rxPowerDbm: -101.366, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.075008010s -1 ClassAEndDeviceLorawanMac:CloseFirstReceiveWindow()
++4.112097292s 8 GatewayLorawanMac:Receive(0x55d461ae23f0, 0x55d461a239b0)
++4.112097292s 8 GatewayLorawanMac:Receive(): Not forwarding downlink message to NetDevice
++4.112097487s 7 GatewayLorawanMac:Receive(0x55d461ae10f0, 0x55d461a239b0)
++4.112097487s 7 GatewayLorawanMac:Receive(): Not forwarding downlink message to NetDevice
++4.112097519s 10 GatewayLorawanMac:Receive(0x55d461ae48c0, 0x55d461a239b0)
++4.112097519s 10 GatewayLorawanMac:Receive(): Not forwarding downlink message to NetDevice
++4.112097630s 1 GatewayLorawanMac:Receive(0x55d46196bc60, 0x55d461a239b0)
++4.112097630s 1 GatewayLorawanMac:Receive(): Not forwarding downlink message to NetDevice
++4.112097860s 2 GatewayLorawanMac:Receive(0x55d461934ab0, 0x55d461a239b0)
++4.112097860s 2 GatewayLorawanMac:Receive(): Not forwarding downlink message to NetDevice
++4.112098229s 0 ClassAEndDeviceLorawanMac:Receive(0x55d461977b60, 0x55d461a239b0)
++4.112098229s 0 ClassAEndDeviceLorawanMac:Receive(): Mac Header: MessageType=3
+Major=0
+
++4.112098229s 0 ClassAEndDeviceLorawanMac:Receive(): Found a downlink packet.
++4.112098229s 0 ClassAEndDeviceLorawanMac:Receive(): Frame Header: Address=0110110|0000000000000011101001000
+ADR=0
+ADRAckReq=0
+ACK=1
+FPending=0
+FOptsLen=0
+FCnt=1
+FPort=0
+
++4.112098229s 0 ClassAEndDeviceLorawanMac:Receive(): The message is for us!
++4.112098229s 0 EndDeviceLorawanMac:ParseCommands(0x55d461977b60, Address=0110110|0000000000000011101001000
+ADR=0
+ADRAckReq=0
+ACK=1
+FPending=0
+FOptsLen=0
+FCnt=1
+FPort=0
+)
++4.112098229s 0 EndDeviceLorawanMac:ParseCommands(): The message is an ACK, not waiting for it anymore.
++4.112098229s 0 EndDeviceLorawanMac:ParseCommands(): Reset retransmission variables to default values and cancel retransmission if already scheduled.
++4.112098229s 0 EndDeviceLorawanMac:ParseCommands(): Received ACK packet after 1 transmissions: stopping retransmission procedure. 
++4.112098446s 3 GatewayLorawanMac:Receive(0x55d46199ae50, 0x55d461a239b0)
++4.112098446s 3 GatewayLorawanMac:Receive(): Not forwarding downlink message to NetDevice
++4.112098705s 6 GatewayLorawanMac:Receive(0x55d461adfe80, 0x55d461a239b0)
++4.112098705s 6 GatewayLorawanMac:Receive(): Not forwarding downlink message to NetDevice
++4.112098725s 5 GatewayLorawanMac:Receive(0x55d461adebf0, 0x55d461a239b0)
++4.112098725s 5 GatewayLorawanMac:Receive(): Not forwarding downlink message to NetDevice
++4.112099212s 9 GatewayLorawanMac:Receive(0x55d461ae3610, 0x55d461a239b0)
++4.112099212s 9 GatewayLorawanMac:Receive(): Not forwarding downlink message to NetDevice

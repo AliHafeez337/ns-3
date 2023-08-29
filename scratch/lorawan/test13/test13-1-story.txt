@@ -1,0 +1,41 @@
+(Addresses might be wrong... its for a general idea)
+
+--------------Starts sending--------------
+
++3.000000000s -1 EndDeviceLorawanMac:Send1(): EndDeviceLorawanMac::Send1 fCnt: 5EndDeviceLorawanMac:DoSend1()
++3.000000000s -1 ClassAEndDeviceLorawanMac:SendToPhy(): PacketToSend: 0x55d9b9272030
++3.000000000s -1 SimpleEndDeviceLoraPhy:Send(): Current state: 0
++3.000000000s -1 LoraChannel:Send(): Starting cycle over all 2 PHYs
+
+--------------Received by GW--------------
+
++3.000003352s 1 LoraChannel:Receive(0x55b32a23dc40, 1, 0x55b32a325030, (rxPowerDbm: -106.581, SF: 7, durationSec: 0.066816, frequencyMHz: 868.1))
+SimpleGatewayLoraPhy:StartReceive(0x55b32a1d7c70, 0x55b32a325030, -106.581, +6.6816e+07ns, 868.1)
++3.066819352s 1 SimpleGatewayLoraPhy:EndReceive(0x55b32a1d7c70, 0x55b32a325030, (3 s - 3.06682 s), SF7, -106.581 dBm, 868.1 MHz)
++3.066819352s 1 SimpleGatewayLoraPhy:EndReceive(): Packet with SF 7 received correctly
++3.066819352s 1 GatewayLorawanMac:Receive(): Received packet: 0x55b32a325030
+
+--------------Received by NS--------------
+
++3.068865752s 2 NetworkServer:Receive(0x55b32a326ae0, 0x55b32a170ef0, 2048, 02-06-00:00:00:00:00:02)
++3.068865752s 2 NetworkScheduler:OnReceivedPacket(0x55b32a170ef0)
++4.068865752s 2 NetworkScheduler:OnReceiveWindowOpportunity(0110110|0000000000000011101001000)
++4.068865752s 2 NetworkScheduler:OnReceiveWindowOpportunity(): A reply is needed
+(NOT NEEDED) +4.068865752s 2 EndDeviceStatus:GetCompleteReplyPacket()
++4.068865752s 2 NetworkStatus:SendThroughGateway(0x55b32a3250a0, 02-06-00:00:00:00:00:02)
+
+--------------Received by GW--------------
+
++4.070883352s 1 LoraNetDevice:Send(0x55b32a3259e0, 0x55b32a176d70)
++4.070883352s 1 GatewayLorawanMac:Send(0x55b32a1b7c60, 0x55b32a176d70)
++4.070883352s 1 SimpleGatewayLoraPhy:Send(0x55b32a1d7c70, 0x55b32a176d70, 868.1, 14)
++4.070883352s 1 LoraChannel:Send(): Starting cycle over all 2 PHYs
+
+--------------Received by ED--------------
+
++4.070886704s 0 LoraChannel:Receive(0x55b32a23dc40, 0, 0x55b32a176d70, (rxPowerDbm: -106.581, SF: 7, durationSec: 0.041216, frequencyMHz: 868.1))
++4.070886704s 0 SimpleEndDeviceLoraPhy:StartReceive(): Scheduling reception of a packet. End in 0.041216 seconds
++4.112102704s 0 SimpleEndDeviceLoraPhy:EndReceive(0x55b32a231300, 0x55b32a176d70, 0x55b32a31d8e0)
++4.112102704s 0 SimpleEndDeviceLoraPhy:EndReceive(): Packet received correctly
++4.112102704s 0 ClassAEndDeviceLorawanMac:Receive(): Mac Header: MessageType=3
++4.112102704s 0 ClassAEndDeviceLorawanMac:Receive(): The message is for us!
